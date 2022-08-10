@@ -1,0 +1,387 @@
+picture {
+  width: 100%;
+  max-width: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#titleWrapper {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+#titleWrapper #title {
+  max-width: 90%;
+}
+
+#titleSection {
+  margin-top: 0px;
+  background: url(view/images/services/Web_development/MAINBG.svg) no-repeat;
+  background-position: -24vw 8vh !important;
+  background-size: 150vw !important;
+  background-color: #6C38EF;
+}
+
+#servicesSection {
+  background: #EFEFEF;
+  padding-top: 153px;
+  padding-bottom: 114px;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.no-webp #sec-a-3 {
+  background: url(view/images/services/Web_development/double-exposure-caucasian-man-virtual-reality-vr-headset-is-presumably-gamer-hacker-cracking-code-into-secure-network-server-with-lines-code.png) NO-REPEAT;
+}
+
+#sec-a-3 {
+  background-size: cover !important;
+  background-position: 68% 39% !important;
+  min-height: 100vh;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.sec-a-3-b {
+  background-color: rgba(20, 20, 20, 0.87);
+  min-height: 100vh;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.sec-a-3-b p {
+  color: #717171;
+  font: normal normal 600 18px/33px Lato;
+  max-width: 85%;
+}
+
+.sec-a-3-b p.main-p {
+  font: normal normal 600 31px/37px Lato;
+}
+
+.sec-a-3-b .wrapper {
+  -webkit-box-orient: inherit;
+  -webkit-box-direction: inherit;
+  -ms-flex-direction: inherit;
+  flex-direction: inherit;
+}
+
+.sec-a-3-b h2 {
+  font: normal normal bold 72px/85px Lato;
+  text-align: left;
+  -webkit-margin-before: 0.2em;
+  margin-block-start: 0.2em;
+  -webkit-margin-after: 0.2em;
+  margin-block-end: 0.2em;
+}
+
+.sec-a-3-b h3 {
+  font: normal normal normal 36px/48px Lato;
+  text-align: left;
+}
+
+.sec-a-3-b .block-2c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#slider {
+  background-color: #ffffff;
+  min-height: calc(41vh - 45px);
+  padding-top: 175px;
+  padding-bottom: 175px;
+}
+
+#services {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 50px;
+  min-height: 600px;
+}
+
+.service img {
+  margin-top: -18vh;
+}
+
+h2.title {
+  font: normal normal bold 72px/85px Lato;
+  letter-spacing: 0px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  color: #6C38EF;
+  -webkit-margin-after: 0em;
+  margin-block-end: 0em;
+}
+
+.service h4 {
+  text-align: left;
+  font: normal normal bold 24px/32px Lato;
+  color: #3C3C3C;
+  min-height: 70px;
+}
+
+.service ul {
+  font: normal normal 600 18px/23px Lato;
+  letter-spacing: 0px;
+  color: #3C3C3C;
+  -webkit-padding-start: 21px;
+  text-align: left;
+  padding-inline-start: 21px;
+  -webkit-margin-after: 1em;
+  max-width: 397px;
+}
+
+.service li {
+  padding-bottom: 18px;
+  line-height: 1.3;
+}
+
+.block-3c:nth-child(1) ::marker {
+  color: #5fccff;
+}
+
+.block-3c:nth-child(2) ::marker {
+  color: #6C38EF;
+}
+
+.riema button:nth-child(2) {
+  display: none;
+}
+
+.riema button:nth-child(3) {
+  background: rgba(211, 247, 252, 0.75) 0% 0% no-repeat padding-box;
+  border: 0px;
+  position: absolute;
+  width: 139px;
+  top: 13px;
+  bottom: 88px;
+  right: 150px;
+  z-index: 10;
+}
+
+.niema button:nth-child(2) {
+  display: none;
+}
+
+.niema button:nth-child(3) {
+  border: 0px;
+  position: absolute;
+  width: 4vw;
+  top: 12vw;
+  height: 600px;
+  right: -8vw;
+  z-index: 10;
+  background: #D3F7FC 0% 0% no-repeat padding-box;
+  border-radius: 20px 0px 0px 20px;
+  opacity: 0.89;
+}
+
+.niema button:nth-child(2) {
+  border: 0px;
+  position: absolute;
+  width: 4vw;
+  top: 12vw;
+  height: 600px;
+  left: -8vw;
+  z-index: 10;
+  background: #D3F7FC 0% 0% no-repeat padding-box;
+  border-radius: 0px 20px 20px 0px;
+  opacity: 0.89;
+}
+
+.block-3c:nth-child(3) ::marker {
+  color: #5044FF;
+}
+
+#title h1 {
+  text-align: left;
+  color: #FFF0AD;
+}
+
+.niema .block-3c {
+  width: 100%;
+}
+
+#title p {
+  text-align: left;
+  font: normal normal 600 24px/40px Lato;
+}
+
+.img-android {
+  height: 27vw;
+  width: 100%;
+  margin-top: 0vw;
+}
+
+.img-iphone {
+  height: 27vw;
+  margin-top: -12vw;
+}
+
+#slider h4,
+#slider h2 {
+  font: normal normal bold 36px/48px Lato;
+  letter-spacing: 0px;
+  color: #3C3C3C;
+  -webkit-margin-before: 0.23em;
+  margin-block-start: 0.23em;
+  -webkit-margin-after: 0.33em;
+  margin-block-end: 0.33em;
+}
+
+.col-sm-6 {
+  width: 50%;
+}
+
+.title-lats {
+  width: 100%;
+  color: #f6583e;
+  font: normal normal bold 72px/85px Lato;
+  max-width: 100%;
+}
+
+#lets-us p {
+  font: normal normal normal 18px/36px Lato;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  padding: 0 11% 0 4%;
+}
+
+#lets-us h4 {
+  font: normal normal bold 36px/48px Lato;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.img-web1 {
+  height: 47vh;
+  margin-top: 0vw;
+  margin-left: -22vw;
+}
+
+.img-web2 {
+  height: 47vh;
+  margin-top: -19vh;
+  margin-left: -32vw;
+}
+
+.webp #sec-a-3 {
+  background: url(view/images/services/Web_development/double-exposure-caucasian-man-virtual-reality-vr-headset-is-presumably-gamer-hacker-cracking-code-into-secure-network-server-with-lines-code.webp) NO-REPEAT;
+}
+
+@media (min-width: 768px) {
+  .niema {
+    overflow: visible !important;
+  }
+
+  .block-3c:nth-child(1) .service,
+  .block-3c:nth-child(2) .service {
+    margin-right: 30px;
+  }
+
+  .block-3c:nth-child(3) .service,
+  .block-3c:nth-child(2) .service {
+    margin-left: 30px;
+  }
+
+  .sec-a-3-b .block-2c:nth-child(2) {
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 1900px) {
+  .service {
+    min-height: 542px;
+  }
+
+  .niema button:nth-child(2),
+  .niema button:nth-child(3) {
+    height: 542px;
+  }
+
+  .niema:after {
+    height: calc(542px + 12vw);
+  }
+}
+
+@media (min-width: 2465px) {
+  .niema .img-div-i img:nth-child(2n) {
+    position: absolute;
+    width: 85%;
+    max-width: 100%;
+    max-height: 102%;
+    z-index: 2;
+    margin-bottom: -15vw;
+    margin-left: 0.2vw;
+  }
+}
+
+@media (max-width: 970px) {
+  .service ul {
+    margin: 0 0 0 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  #services.niema {
+    padding-top: 50px !important;
+    width: 100% !important;
+    position: relative;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  #titleSection {
+    background-position: -61vw 8vh !important;
+    background-size: 239vw !important;
+  }
+
+  .img-web1 {
+    height: 47vh;
+    margin-top: -10vh;
+    margin-left: -22vw;
+  }
+
+  #title p {
+    display: none;
+  }
+}
+
+@media (min-width: 1139px) and (max-width: 1459px) {
+  .img-div-i {
+    margin-top: -34vh !important;
+    padding-bottom: 10px;
+  }
+}
