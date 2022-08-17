@@ -1,0 +1,25 @@
+.gr-s-l {
+    background:#EFEFEF;
+}
+.gr-s-l h2 {
+    font: normal normal bold 72px/85px Segoe UI;
+    letter-spacing: 0px;
+    color: #181818;
+    text-align:left;
+}
+.gr-s-l .wrapper {
+    flex-direction: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.block-6c { flex: 0 0 60%; }
+.block-4c { flex: 0 0 40%; }
+.block-4c{ flex: 0 0 100%; }
+@media (max-width: 1400px) {
+    .block-6c > p { font: normal normal bold 14px /20px Lato !important; }
+}
+@media (max-width: 970px) {
+    .block-6c{ flex: 0 0 100%; }
+}

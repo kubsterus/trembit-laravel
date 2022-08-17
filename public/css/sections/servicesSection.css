@@ -1,0 +1,145 @@
+@media (min-width: 2465px) {
+    #servicesSection #services {
+        padding-top: 9vw;
+    }
+    .img-div-i.active img:first-child {
+        width: 100% !important;
+        max-width: 450px;
+    }
+    .img-div-i picture:nth-child(2n) {
+        position: absolute;
+        width: 85%;
+        max-width: 100%;
+        max-height: 102%;
+        z-index: 2;
+        margin-bottom: -15vw;
+        margin-left: 0.2vw;
+    }
+    .img-div-i {
+        min-height: 98px;
+        margin-top: -7vw;
+        padding-bottom: 9vw;
+    }
+}
+#servicesSection #services {
+    padding-top: 140px;
+}
+@media (max-width: 768px) {
+    .img-div-i picture:nth-child(2n) {
+        position: absolute;
+        width: 100%;
+        max-height: 100%;
+        margin-bottom: -27vw;
+        margin-left: -12.3vw;
+    }
+    #servicesSection #services {
+        padding-top: 20px;
+    }
+    #servicesSection h2.title {
+        font: normal normal bold 36px/44px Lato !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #servicesSection {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        z-index: 2;
+        margin-top: -129px;
+    }
+    .niema .img-div-i picture:nth-child(2n) {
+        position: absolute;
+        width: 94%;
+        max-height: 100%;
+        z-index: 2;
+        margin-bottom: -25.1vw;
+        margin-left: -8vw;
+    }
+}
+.niema div div:nth-child(odd) .img-div-i img:first-child {
+    transform-origin: bottom;
+    -webkit-animation: spin 7s infinite linear;
+    transform: translate3d(0, -100%, 0);
+    animation: spin 7s infinite linear;
+}
+.niema div div:nth-child(even) .img-div-i img:first-child {
+    transform-origin: bottom;
+    -webkit-animation: spin2 7s infinite linear;
+    animation: spin2 7s infinite linear;
+}
+.niema .img-div-i picture:nth-child(2n) {
+    position: absolute;
+    width: 85%;
+    max-height: 100%;
+    z-index: 2;
+    margin-bottom: -5.1vw;
+    margin-left: -2vw;
+}
+.niema:after {
+    content: '';
+    display: block;
+    width: 8vw;
+    background: #efefef;
+    height: calc(600px + 12vw);
+    position: absolute;
+    top: 0;
+    left: -8vw;
+}
+.niema.active:after { display:none; }
+.niema button:nth-child(3):before {
+    content: '';
+    display: block;
+    width: 30px;
+    margin-left:39%;
+    height: 57px;
+    background: url(../view/images/svg/Arrow.svg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.niema button:nth-child(2):before {
+    content: '';
+    display: block;
+    width: 30px;
+    margin-left:20%;
+    transform: rotate(180deg);
+    height: 57px;
+    background: url(../view/images/svg/Arrow.svg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.niema button.active:nth-child(2) { display: block !important; }
+.img-div-i {
+    min-height: 98px;
+    margin-top: -18vh;
+    display: flex;
+    height: 280px;
+    padding-bottom: 40px;
+    align-items: flex-end;
+    width: 100%;
+}
+.img-div-i img:first-child {
+    z-index: 3;
+    transition: 600ms;
+}
+.img-div-i.active img:first-child {
+    width: 100%!important;
+}
+.img-div-i.stop img:first-child {
+    -webkit-animation: none !important;
+    animation: none !important;
+    transform: translate3d(0, 0%, 0)!important;
+    transition:600ms;
+}
+.img-div-i picture:nth-child(2n) {
+    position: absolute;
+    width: 85%;
+    max-height: 100%;
+    z-index: 2;
+    margin-bottom: -8vw;
+    margin-left: -2.3vw;
+}
+@media (min-width: 1139px) and (max-width: 1459px) {
+    .img-div-i { margin-top: -25vh !important; }
+}
+@media (min-width: 768px) and (max-width: 1139px) {
+    .img-div-i { margin-top: -215px !important; }
+}

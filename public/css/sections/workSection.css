@@ -1,0 +1,63 @@
+@media (max-width: 1400px) {
+    #workSection h2{
+        font-size: 3em;
+    }
+}
+@media (max-width: 739px) {
+    #workSection h2{
+        font-size: 36px;
+        line-height: 52px;
+    }
+}
+@media (max-width: 1025px) {
+    .projectDescription h3 { font-size: 25px; }
+    .projectDescription p { font-size: 14px; }
+    .projectDescription .italic { font-size: 20px; }
+}
+@media (max-width: 970px) {
+    .projectDescription {
+        max-width: 80vw;
+        margin: auto;
+        text-align: center;
+    }
+}
+.projectDescription {
+    max-width: 50%;
+    color: #2F2F2F;
+}
+.projectDescription h3 {
+    line-height: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.projectDescription p {
+    font-size: 20px;
+    line-height: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+#workSection {
+    background-color: #ffffff;
+}
+#workSection h2 {
+    font-size: 4em;
+    margin: 0;
+}
+#workSection {
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+}
+#workSection::-webkit-scrollbar, .case-bl::-webkit-scrollbar { width: 0; }
+#workSection, .case-bl { -ms-overflow-style: none;scrollbar-width: none; }
+#workSection amp-img {
+    box-shadow: 3px 3px 8px -2px black;
+}
+.projectReverse { flex-direction: row-reverse; }
+.highlight {
+    background: linear-gradient(90deg, black 66%, transparent 0) repeat-x;
+    background-size: .2em 2px;
+    background-position: 0 1em;
+}

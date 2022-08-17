@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     @include('head')
+    @inlineCss(css/header_footer.css)
+    @yield('critical_styles')
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -28,5 +30,6 @@
     @include('footer')
 </div>
 @include('after_footer')
+@inlineCss(css/style.css)
 </body>
 </html>

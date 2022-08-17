@@ -1,0 +1,13 @@
+@media (max-width: 970px) {
+    #question h2{
+        padding-bottom: 37px;
+    }
+    body #question h2 {
+        font: normal normal bold 27px /40px Lato;
+    }
+}
+@media (max-width: 1575px) {
+    body #question h2 {
+        font: normal normal bold 27px /40px Lato;
+    }
+}

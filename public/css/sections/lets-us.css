@@ -1,0 +1,102 @@
+#lets-us .lt-us p {
+    padding: 0%;
+    padding-right: 25px;
+}
+#lets-us .lt-us p:last-child {
+    margin-block-start: 0em;
+}
+.submit-success, .submit-error { display: none; }
+.submit-success.active, .submit-error.active { display: block; }
+.lt-us .title-lats {
+    font: normal normal bold 30px/54px Lato;
+    max-width: 100%;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    -webkit-margin-before: 0em;
+}
+.title-lats {
+    width: 100%;
+    color: #f6583e;
+    font: normal normal bold 72px/85px Lato;
+    max-width: 241px;
+}
+.lt-us { align-items: flex-start; }
+@media (max-width: 1400px) {
+    #lets-us .case-bl {
+        width: 64%;
+        padding: 15px 0px;
+    }
+    .title-lats { font: normal normal bold 36px/50px Lato; }
+}
+@media (max-width: 1220px) {
+    #lets-us .case-bl {
+        width: 80%;
+        padding: 15px 0px;
+    }
+}
+@media (max-width: 970px) {
+    .title-lats {
+        text-align: center;
+        margin: 1px auto 40px auto;
+        font: normal normal bold 34px/43px Lato !important;
+        margin-bottom: 26px !important;
+    }
+    #lets-us .bl-3w {
+        display: flex;
+    }
+    #lets-us .bl-7w, .desktop {
+        display: none;
+    }
+    .flex.lt-us {
+        width: calc( 80% + 2rem);
+        margin: auto;
+    }
+    .form-box-2 form input.text, .form-box-2 form textarea {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+    .form-box-1, .form-box-2, .form-box-2 form .case-bl { width: 100%!important; }
+    .form-box-2 form { flex-direction: column; }
+    .form-box-2 form input.text, .form-box-2 form textarea { margin-bottom: 33px!important; }
+    .form-box-1 { padding-left: 0%!important; }
+    .form-box-1 .title-lats {
+        text-align: center;
+        margin: 1px auto 40px auto!important;
+    }
+    .form-box-2 form .case-bl { padding: 0px 0px!important; }
+}
+@media (max-width: 768px) {
+    #lets-us p, #lets-us h4 {
+        display: none;
+    }
+}
+@media (max-width: 1675px) {
+    .title-lats { font: normal normal bold 64px/67px Lato; }
+}
+.form-box-1 { width: 34%; }
+.form-box-2 {
+    align-items: center;
+    display: flex;
+    width: 66%;
+}
+.form-box-2 form {
+    width: 100%;
+    display:flex;
+}
+.form-box-2 form input.text, .form-box-2 form textarea {
+    max-width: 100%;
+    margin-left: 20px;
+}
+.form-box-2 form textarea { min-height: 210px; }
+.form-box-2 .submit-b {
+    margin-left: auto;
+    margin-right: 0%;
+}
+.form-box-2 form .case-bl {
+    width: 50%;
+    padding: 0px 0px;
+    margin: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}

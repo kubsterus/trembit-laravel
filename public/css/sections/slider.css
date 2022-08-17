@@ -1,0 +1,53 @@
+@media (min-width: 1139px) and (max-width: 1459px) {
+    #slider h4, #slider h2 {
+        font: normal normal bold 26px/36px Lato !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1139px) {
+    #slider h4, #slider h2 {
+        font: normal normal bold 24px/32px Lato !important;
+    }
+}
+#slider .riema button:nth-child(2) {
+    background: rgb(211 247 252 / 75%) 0% 0% no-repeat padding-box;
+    border: 0px;
+    position: absolute;
+    width: 139px;
+    top: 13px;
+    bottom: 88px;
+    left: -150px;
+    z-index: 10;
+}
+#slider .riema button.active:nth-child(2) {
+    display:block!important;
+}
+#slider .riema.active {
+    overflow: visible !important;
+}
+#slider .riema button:nth-child(2):before {
+    content: '';
+    display: block;
+    width: 30px;
+    margin-left: 39%;
+    transform: rotate( 180deg);
+    height: 57px;
+    background: url(../view/images/svg/Arrow.svg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+@media (max-width: 768px) {
+    #slider .riema button:nth-child(3) {
+        display: none;
+    }
+    #slider {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #slider .riema {
+        margin-left: -15px !important;
+        overflow: visible !important;
+    }
+    #slider h4, #slider h2 {
+        font: normal normal bold 24px/32px Lato !important;
+    }
+}

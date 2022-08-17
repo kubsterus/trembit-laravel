@@ -1,0 +1,14 @@
+#solutionprovide .submit-b {
+    display: block;
+    float: left;
+    width: auto;
+    margin-left: 0;
+}
+@media (max-width: 1575px) {
+    body #solutionprovide h2 {
+        color: #3C3C3C;
+        font: normal normal bold 45px /59px Lato;
+        max-width: 681px;
+        text-align: left;
+    }
+}
