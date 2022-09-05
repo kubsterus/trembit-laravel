@@ -1,7 +1,7 @@
 @extends('skeleton')
 
 @section('critical_styles')
-	@inlineCss(css/contacts_formkeep.css)
+
 @endsection
 @section('content')
 	@include('sections.contacts_formkeep.cont-m')

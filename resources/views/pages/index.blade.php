@@ -4,7 +4,14 @@
 	@inlineCss(css/index.css)
 @endsection
 @section('content')
-	@include('sections.index.titleSection')
+    <x-title-section>
+        <x-slot name="video" desktop="{{asset('view/video/Video_desktop_Compress_20.mp4')}}" mobile="{{asset('view/video/Mobile_70_black_Compress_20.mp4')}}"></x-slot>
+        <x-slot name="title">
+            <h1>Custom video streaming and <br> <span class="red"> WebRTC</span> development </h1>
+            <p class="desktop">We build powerful media streaming platforms</p>
+            <a href="/contacts.html"><div id="titleButton" class="red-b"><span class="but-as">Get in touch</span></div></a>
+        </x-slot>
+    </x-title-section>
 	@include('sections.index.case')
 	@include('sections.index.industries')
 	@include('sections.index.wecreate')

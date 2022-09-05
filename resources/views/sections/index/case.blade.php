@@ -1,5 +1,4 @@
 <section id="case" style="position: relative;background-color: #171717;padding-top: 0px;padding-bottom: 0px;min-height: auto;">
-
             <div class="flex">
                 <div class="bl-7w">
                     <div class="flex block-in-s block-in-0 active">
