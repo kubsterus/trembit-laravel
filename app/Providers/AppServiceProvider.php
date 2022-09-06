@@ -10,6 +10,7 @@ use App\View\Components\LetsUsSectionComponent;
 use App\View\Components\PortfolioItemComponent;
 use App\View\Components\ProjectOverviewComponent;
 use App\View\Components\ServiceFeaturesSectionComponent;
+use App\View\Components\ServiceItemSection;
 use App\View\Components\ServicesSectionComponent;
 use App\View\Components\SliderSectionComponent;
 use App\View\Components\SolutionProvideSectionComponent;
@@ -58,5 +59,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('solutionprovide-section', SolutionProvideSectionComponent::class);
         Blade::component('project-overview-section', ProjectOverviewComponent::class);
         Blade::component('faq-section', FAQComponent::class);
+        Blade::component('service-item-section', ServiceItemSection::class);
     }
 }
