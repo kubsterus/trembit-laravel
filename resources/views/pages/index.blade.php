@@ -12,7 +12,7 @@
             <a href="/contacts.html"><div id="titleButton" class="red-b"><span class="but-as">Get in touch</span></div></a>
         </x-slot>
     </x-title-section>
-	@include('sections.index.case')
+	<x-case-section></x-case-section>
 	@include('sections.index.industries')
 	@include('sections.index.wecreate')
 	@include('sections.index.sec-a-3')

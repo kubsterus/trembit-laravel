@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\View\Components\CaseSectionComponent;
 use App\View\Components\ContactsSectionComponent;
 use App\View\Components\FAQComponent;
 use App\View\Components\FoundersSectionComponent;
@@ -58,5 +59,7 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('solutionprovide-section', SolutionProvideSectionComponent::class);
         Blade::component('project-overview-section', ProjectOverviewComponent::class);
         Blade::component('faq-section', FAQComponent::class);
+        Blade::component('case-section', CaseSectionComponent::class);
+
     }
 }
