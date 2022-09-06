@@ -21,6 +21,6 @@
 	@include('sections.index.benefits')
 	@include('sections.index.feedback')
 	@include('sections.index.question')
-	@include('sections.index.lets-us')
+	<x-lets-us-section></x-lets-us-section>
 
 @endsection

@@ -14,6 +14,7 @@ use App\View\Components\ServicesSectionComponent;
 use App\View\Components\SliderSectionComponent;
 use App\View\Components\SolutionProvideSectionComponent;
 use App\View\Components\StatisticsSectionComponent;
+use App\View\Components\TestComponent;
 use App\View\Components\TitleSectionComponent;
 use App\View\Components\WorksSectionComponent;
 use Illuminate\Support\Facades\Blade;
