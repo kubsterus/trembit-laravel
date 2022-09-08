@@ -1,0 +1,131 @@
+#servicesItemSection {
+    background-color: white;
+}
+
+#servicesItemSection h1,
+#servicesItemSection h2 {
+    font-size: 64px;
+    color: #000;
+    text-align: center;
+    line-height: 1.2em;
+    position: relative;
+}
+
+#servicesItemSection h1:after,
+#servicesItemSection h2:after {
+    content: "";
+    position: absolute;
+    top: 110px;
+    left: 19.3%;
+    background-color: #f6e145;
+    width: 61.5%;
+    height: 1px;
+}
+#servicesItemSection h1,
+#servicesItemSection h2 {
+    font-size: 50px;
+    margin-top: 60px;
+}
+@media (max-width: 739px) {
+    #servicesItemSection h1,
+    #servicesItemSection h2 {
+        font-size: 42px;
+    }
+}
+h1,
+h2 {
+    font-family: "Avenir Next Bold";
+}
+.serviceImg {
+    margin: 0 20px;
+}
+.serviceDescribe {
+    max-width: calc(70% - 400px);
+    color: #2F2F2F;
+    line-height: 1.6em !important;
+    font-size: 24px !important;
+    text-indent: 22px !important;
+    font-family: "Avenir Next Regular" !important;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    text-align: justify;
+}
+
+.serviceDescribe p {
+    line-height: 1.6em !important;
+    font-size: 24px !important;
+    text-indent: 22px !important;
+    font-family: "Avenir Next Regular" !important;
+}
+@media (max-width: 1025px) {
+    .serviceDescribe,
+    .serviceDescribe p {
+        font-size: 18px !important;
+    }
+
+    .serviceDescribe {
+        max-width: calc(90% - 400px);
+        color: #2F2F2F;
+        line-height: 1.3em !important;
+        font-size: 12px !important;
+        text-indent: 16px !important;
+    }
+
+    .serviceDescribe p {
+        line-height: 1.3em !important;
+        font-size: 12px !important;
+        text-indent: 16px !important;
+    }
+}
+@media (max-width: 970px) {
+    .serviceDescribe {
+        max-width: 80vw;
+    }
+    .service {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+.serviceReverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+#services {
+    max-width: 90vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+@media (max-width: 739px) {
+    .service {
+        padding: 0;
+    }
+}
