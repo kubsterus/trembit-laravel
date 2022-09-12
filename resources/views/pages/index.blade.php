@@ -13,7 +13,7 @@
         </x-slot>
     </x-title-section>
 	<x-case-section></x-case-section>
-	@include('sections.index.industries')
+	<x-industries-component></x-industries-component>
 	@include('sections.index.wecreate')
 	@include('sections.index.sec-a-3')
 	@include('sections.index.partners')

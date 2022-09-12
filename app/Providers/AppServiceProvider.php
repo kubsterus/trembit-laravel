@@ -6,6 +6,7 @@ use App\View\Components\CaseSectionComponent;
 use App\View\Components\ContactsSectionComponent;
 use App\View\Components\FAQComponent;
 use App\View\Components\FoundersSectionComponent;
+use App\View\Components\IndustriesComponent;
 use App\View\Components\LetsUsCenteredSectionComponent;
 use App\View\Components\LetsUsSectionComponent;
 use App\View\Components\PortfolioItemComponent;
@@ -62,5 +63,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('faq-section', FAQComponent::class);
         Blade::component('case-section', CaseSectionComponent::class);
         Blade::component('service-item-section', ServiceItemSection::class);
+        Blade::component('industries-component', IndustriesComponent::class);
     }
 }
