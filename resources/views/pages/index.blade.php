@@ -14,7 +14,7 @@
     </x-title-section>
 	<x-case-section></x-case-section>
 	<x-industries-component></x-industries-component>
-	@include('sections.index.wecreate')
+	<x-we-create></x-we-create>
 	@include('sections.index.sec-a-3')
 	@include('sections.index.partners')
 	@include('sections.index.our-platform')

@@ -19,6 +19,7 @@ use App\View\Components\SolutionProvideSectionComponent;
 use App\View\Components\StatisticsSectionComponent;
 use App\View\Components\TestComponent;
 use App\View\Components\TitleSectionComponent;
+use App\View\Components\WeCreate;
 use App\View\Components\WorksSectionComponent;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
@@ -64,5 +65,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('case-section', CaseSectionComponent::class);
         Blade::component('service-item-section', ServiceItemSection::class);
         Blade::component('industries-component', IndustriesComponent::class);
+        Blade::component('we-create', WeCreate::class);
     }
 }
