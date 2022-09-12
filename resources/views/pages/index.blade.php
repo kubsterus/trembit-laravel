@@ -16,8 +16,8 @@
 	<x-industries-component></x-industries-component>
 	<x-we-create></x-we-create>
 	<x-services-we-provide></x-services-we-provide>
-	{{-- @include('sections.index.sec-a-3') --}}
-	@include('sections.index.partners')
+	<x-partners></x-partners>
+	{{-- @include('sections.index.partners') --}}
 	@include('sections.index.our-platform')
 	@include('sections.index.benefits')
 	@include('sections.index.feedback')
