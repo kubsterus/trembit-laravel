@@ -9,6 +9,7 @@ use App\View\Components\FoundersSectionComponent;
 use App\View\Components\IndustriesComponent;
 use App\View\Components\LetsUsCenteredSectionComponent;
 use App\View\Components\LetsUsSectionComponent;
+use App\View\Components\OurPlatform;
 use App\View\Components\Partners;
 use App\View\Components\PortfolioItemComponent;
 use App\View\Components\ProjectOverviewComponent;
@@ -70,5 +71,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('we-create', WeCreate::class);
         Blade::component('services-we-provide', ServicesWeProvide::class);
         Blade::component('partners', Partners::class);
+        Blade::component('our-platform', OurPlatform::class);
     }
 }

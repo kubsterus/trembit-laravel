@@ -17,8 +17,9 @@
 	<x-we-create></x-we-create>
 	<x-services-we-provide></x-services-we-provide>
 	<x-partners></x-partners>
+	<x-our-platform></x-our-platform>
 	{{-- @include('sections.index.partners') --}}
-	@include('sections.index.our-platform')
+	{{-- @include('sections.index.our-platform') --}}
 	@include('sections.index.benefits')
 	@include('sections.index.feedback')
 	@include('sections.index.question')
