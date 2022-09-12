@@ -14,6 +14,7 @@ use App\View\Components\ProjectOverviewComponent;
 use App\View\Components\ServiceFeaturesSectionComponent;
 use App\View\Components\ServiceItemSection;
 use App\View\Components\ServicesSectionComponent;
+use App\View\Components\ServicesWeProvide;
 use App\View\Components\SliderSectionComponent;
 use App\View\Components\SolutionProvideSectionComponent;
 use App\View\Components\StatisticsSectionComponent;
@@ -66,5 +67,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('service-item-section', ServiceItemSection::class);
         Blade::component('industries-component', IndustriesComponent::class);
         Blade::component('we-create', WeCreate::class);
+        Blade::component('services-we-provide', ServicesWeProvide::class);
     }
 }

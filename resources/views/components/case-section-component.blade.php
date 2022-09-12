@@ -181,4 +181,4 @@
         </div>
     </div>
 </section>
-@inlineStyles(css/sections/case.css)
+@inlineCss(css/sections/case.css)

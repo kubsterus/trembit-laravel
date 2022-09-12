@@ -15,7 +15,8 @@
 	<x-case-section></x-case-section>
 	<x-industries-component></x-industries-component>
 	<x-we-create></x-we-create>
-	@include('sections.index.sec-a-3')
+	<x-services-we-provide></x-services-we-provide>
+	{{-- @include('sections.index.sec-a-3') --}}
 	@include('sections.index.partners')
 	@include('sections.index.our-platform')
 	@include('sections.index.benefits')
