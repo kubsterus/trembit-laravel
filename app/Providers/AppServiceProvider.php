@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\View\Components\Benefits;
 use App\View\Components\CaseSectionComponent;
 use App\View\Components\ContactsSectionComponent;
 use App\View\Components\FAQComponent;
@@ -72,5 +73,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('services-we-provide', ServicesWeProvide::class);
         Blade::component('partners', Partners::class);
         Blade::component('our-platform', OurPlatform::class);
+        Blade::component('benefits', Benefits::class);
     }
 }
