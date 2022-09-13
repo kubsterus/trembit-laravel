@@ -19,7 +19,7 @@
 	<x-partners></x-partners>
 	<x-our-platform></x-our-platform>
 	<x-benefits></x-benefits>
-	@include('sections.index.feedback')
+	<x-feedback></x-feedback>
 	@include('sections.index.question')
 	<x-lets-us-section></x-lets-us-section>
 

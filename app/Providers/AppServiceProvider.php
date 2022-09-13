@@ -6,6 +6,7 @@ use App\View\Components\Benefits;
 use App\View\Components\CaseSectionComponent;
 use App\View\Components\ContactsSectionComponent;
 use App\View\Components\FAQComponent;
+use App\View\Components\Feedback;
 use App\View\Components\FoundersSectionComponent;
 use App\View\Components\IndustriesComponent;
 use App\View\Components\LetsUsCenteredSectionComponent;
@@ -74,5 +75,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('partners', Partners::class);
         Blade::component('our-platform', OurPlatform::class);
         Blade::component('benefits', Benefits::class);
+        Blade::component('feedback', Feedback::class);
     }
 }
