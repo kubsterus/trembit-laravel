@@ -23,7 +23,7 @@
         <div class="accordion-box">
             <button class="accordion">{{$item['question']}}</button>
             <div class="panel">
-                <p>{{$item['answer']}}</p>
+                <p>{!!$item['answer']!!}</p>
             </div>
         </div>
         @endforeach
