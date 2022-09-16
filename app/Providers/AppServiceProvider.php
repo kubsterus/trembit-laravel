@@ -8,7 +8,7 @@ use App\View\Components\ContactsSectionComponent;
 use App\View\Components\FAQComponent;
 use App\View\Components\Feedback;
 use App\View\Components\FoundersSectionComponent;
-use App\View\Components\IndustriesComponent;
+use App\View\Components\IndustryOverview;
 use App\View\Components\LetsUsCenteredSectionComponent;
 use App\View\Components\LetsUsSectionComponent;
 use App\View\Components\OurPlatform;
@@ -25,6 +25,7 @@ use App\View\Components\StatisticsSectionComponent;
 use App\View\Components\TestComponent;
 use App\View\Components\TitleSectionComponent;
 use App\View\Components\WeCreate;
+use App\View\Components\WhyBlock;
 use App\View\Components\WorksSectionComponent;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
@@ -69,6 +70,7 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('faq-section', FAQComponent::class);
         Blade::component('case-section', CaseSectionComponent::class);
         Blade::component('service-item-section', ServiceItemSection::class);
+        Blade::component('industry-overview-section', IndustryOverview::class);
         Blade::component('industries-component', IndustriesComponent::class);
         Blade::component('we-create', WeCreate::class);
         Blade::component('services-we-provide', ServicesWeProvide::class);
@@ -76,5 +78,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('our-platform', OurPlatform::class);
         Blade::component('benefits', Benefits::class);
         Blade::component('feedback', Feedback::class);
+        Blade::component('why-block', WhyBlock::class);
     }
 }

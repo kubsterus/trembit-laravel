@@ -1,7 +1,7 @@
 @extends('skeleton')
 
 @section('critical_styles')
-	@inlineCss(css/industries.entertainment.css)
+{{--	@inlineCss(css/industries.entertainment.css)--}}
 @endsection
 @section('content')
 	@include('sections.industries.entertainment.hero')
@@ -12,6 +12,5 @@
 	@include('sections.industries.entertainment.cases')
 	@include('sections.industries.entertainment.feedback')
 	@include('sections.industries.entertainment.qna')
-	@include('sections.industries.entertainment.contact')
-
+    <x-lets-us-section></x-lets-us-section>
 @endsection

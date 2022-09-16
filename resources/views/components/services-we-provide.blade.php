@@ -1,5 +1,6 @@
 @props([
     'title' => 'Services We Provide',
+    'subtitle' => '',
     'items' => [
         [
             'picture' => [
@@ -91,21 +92,28 @@
     <div class="sec-a-3-b">
         <div class="wrapper">
             <h2>{{$title}}</h2>
+            @if($subtitle)
+                <p>{{$subtitle}}</p>
+            @endif
             @foreach ($items as $item)
-
             <div class="item-ap-k">
                 <picture>
-                    @foreach ($item['picture']['srcset'] as $set)
-                        <source srcset="{{$set['link']}}" type="{{$set['type']}}">
-                    @endforeach
-                    <img alt="{{$item['picture']['alt']}}" src="{{$item['picture']['src']}}" ></source>
+                    @if(is_array($item['picture']))
+                        @foreach ($item['picture']['srcset'] as $set)
+                            <source srcset="{{$set['link']}}" type="{{$set['type']}}">
+                        @endforeach
+                        <img alt="{{$item['picture']['alt']}}" src="{{$item['picture']['src']}}" ></source>
+                    @else
+                        <source srcset="{{$item['picture']}}">
+                        <img src="{{$item['picture']}}" ></source>
+                    @endif
                 </picture>
                 <h3>{!! $item['title']!!}</h3>
                 <p>{!! $item['content'] !!}</p>
             </div>
-                
+
             @endforeach
-            
+
         </div>
     </div>
 </section>
