@@ -93,7 +93,7 @@
         <div class="wrapper">
             <h2>{{$title}}</h2>
             @if($subtitle)
-                <p>{{$subtitleпшееее}}</p>
+                <p>{{$subtitle}}</p>
             @endif
             @foreach ($items as $item)
             <div class="item-ap-k">
