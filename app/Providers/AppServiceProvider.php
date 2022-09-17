@@ -24,6 +24,7 @@ use App\View\Components\SolutionProvideSectionComponent;
 use App\View\Components\StatisticsSectionComponent;
 use App\View\Components\TestComponent;
 use App\View\Components\TitleSectionComponent;
+use App\View\Components\IndustriesComponent;
 use App\View\Components\WeCreate;
 use App\View\Components\WhyBlock;
 use App\View\Components\WorksSectionComponent;
