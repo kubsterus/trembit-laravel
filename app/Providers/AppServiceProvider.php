@@ -3,12 +3,15 @@
 namespace App\Providers;
 
 use App\View\Components\Benefits;
+use App\View\Components\BlogSection;
 use App\View\Components\CaseSectionComponent;
+use App\View\Components\ChooseFrom;
 use App\View\Components\ContactsSectionComponent;
 use App\View\Components\FAQComponent;
 use App\View\Components\Feedback;
 use App\View\Components\FoundersSectionComponent;
-use App\View\Components\HeroSection;
+use App\View\Components\GamePhases;
+use App\View\Components\GamesSection;
 use App\View\Components\IndustryOverview;
 use App\View\Components\LetsUsCenteredSectionComponent;
 use App\View\Components\LetsUsSectionComponent;
@@ -16,7 +19,6 @@ use App\View\Components\OurPlatform;
 use App\View\Components\Partners;
 use App\View\Components\PortfolioItemComponent;
 use App\View\Components\ProjectOverviewComponent;
-use App\View\Components\QNASection;
 use App\View\Components\ServiceFeaturesSectionComponent;
 use App\View\Components\ServiceItemSection;
 use App\View\Components\ServicesSectionComponent;
@@ -27,6 +29,9 @@ use App\View\Components\StatisticsSectionComponent;
 use App\View\Components\TestComponent;
 use App\View\Components\TitleSectionComponent;
 use App\View\Components\IndustriesComponent;
+use App\View\Components\KeyFeatures;
+use App\View\Components\ProducerSection;
+use App\View\Components\ScalabilitySection;
 use App\View\Components\WeCreate;
 use App\View\Components\WhyBlock;
 use App\View\Components\WorksSectionComponent;
@@ -82,7 +87,12 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('benefits', Benefits::class);
         Blade::component('feedback', Feedback::class);
         Blade::component('why-block', WhyBlock::class);
-        Blade::component('qna-section', QNASection::class);
-        Blade::component('hero-section', HeroSection::class);
+        Blade::component('key-features', KeyFeatures::class);
+        Blade::component('game-phases', GamePhases::class);
+        Blade::component('choose-from', ChooseFrom::class);
+        Blade::component('games-section', GamesSection::class);
+        Blade::component('scalability-section', ScalabilitySection::class);
+        Blade::component('producer-section', ProducerSection::class);
+        Blade::component('blog-section', BlogSection::class);
     }
 }

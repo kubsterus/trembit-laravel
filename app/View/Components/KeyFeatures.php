@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class QNASection extends Component
+class KeyFeatures extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class QNASection extends Component
      */
     public function render()
     {
-        return view('components.q-n-a-section');
+        return view('components.key-features');
     }
 }
