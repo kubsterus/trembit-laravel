@@ -8,6 +8,7 @@ use App\View\Components\ContactsSectionComponent;
 use App\View\Components\FAQComponent;
 use App\View\Components\Feedback;
 use App\View\Components\FoundersSectionComponent;
+use App\View\Components\HeroSection;
 use App\View\Components\IndustryOverview;
 use App\View\Components\LetsUsCenteredSectionComponent;
 use App\View\Components\LetsUsSectionComponent;
@@ -15,6 +16,7 @@ use App\View\Components\OurPlatform;
 use App\View\Components\Partners;
 use App\View\Components\PortfolioItemComponent;
 use App\View\Components\ProjectOverviewComponent;
+use App\View\Components\QNASection;
 use App\View\Components\ServiceFeaturesSectionComponent;
 use App\View\Components\ServiceItemSection;
 use App\View\Components\ServicesSectionComponent;
@@ -80,5 +82,7 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('benefits', Benefits::class);
         Blade::component('feedback', Feedback::class);
         Blade::component('why-block', WhyBlock::class);
+        Blade::component('qna-section', QNASection::class);
+        Blade::component('hero-section', HeroSection::class);
     }
 }
