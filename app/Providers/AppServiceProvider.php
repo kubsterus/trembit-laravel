@@ -9,7 +9,6 @@ use App\View\Components\FAQComponent;
 use App\View\Components\Feedback;
 use App\View\Components\FoundersSectionComponent;
 use App\View\Components\HeroSection;
-use App\View\Components\IndustryBenefitsSection;
 use App\View\Components\IndustryOverview;
 use App\View\Components\LetsUsCenteredSectionComponent;
 use App\View\Components\LetsUsSectionComponent;
@@ -83,7 +82,12 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('benefits', Benefits::class);
         Blade::component('feedback', Feedback::class);
         Blade::component('why-block', WhyBlock::class);
-        Blade::component('qna-section', QNASection::class);
-        Blade::component('hero-section', HeroSection::class);
+        Blade::component('key-features', KeyFeatures::class);
+        Blade::component('game-phases', GamePhases::class);
+        Blade::component('choose-from', ChooseFrom::class);
+        Blade::component('games-section', GamesSection::class);
+        Blade::component('scalability-section', ScalabilitySection::class);
+        Blade::component('producer-section', ProducerSection::class);
+        Blade::component('blog-section', BlogSection::class);
     }
 }

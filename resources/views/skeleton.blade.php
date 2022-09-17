@@ -30,6 +30,6 @@
     @include('footer')
 </div>
 @include('after_footer')
-@inlineCss(css/style.css)
+{{-- @inlineCss(css/style.css) --}}
 </body>
 </html>
