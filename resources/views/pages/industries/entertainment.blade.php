@@ -11,6 +11,45 @@
             'text' => 'Get in touch',
         ]"
     ></x-hero-section>
+    <x-services-we-provide title="Services<br>We Provide"
+                           :items="[
+        [
+            'picture' => asset('view/images/industries/smartphone_4.webp'),
+            'title' => 'Useful app features for users:',
+            'content' => '
+                <ul>
+                    <li>a workout plan for a person of any level of physical fitness;</li>
+                    <li>individual diet plan;</li>
+                    <li>wearable device integration</li>
+                    <li>recommendations and marathons from a coach or nutritionist;</li>
+                    <li>live-streaming workout sessions;</li>
+                    <li>reports on progress in achieving the set goals;</li>
+                    <li>food and workout diary;</li>
+                    <li>gamification.</li>
+                </ul>
+            '
+        ],
+        [
+            'picture' => asset('view/images/industries/heart-rate.webp'),
+            'title' => 'Useful app features for coaches:',
+            'content' => '<ul>
+                    <li>profile describing competencies and experience;</li>
+                    <li>training management;</li>
+                    <li>earnings tracking;</li>
+                    <li>client base;</li>
+                </ul>'
+        ],
+        [
+            'picture' => asset('view/images/industries/plan.webp'),
+            'title' => 'Useful app features for admins:',
+            'content' => '<ul>
+                    <li>coaches and users management;</li>
+                    <li>membership plan management;</li>
+                    <li>schedule management;</li>
+                    <li>challenges management.</li>
+                </ul>'
+        ],
+    ]"></x-services-we-provide>
 	@include('sections.industries.entertainment.benefits')
 	@include('sections.industries.entertainment.peculiarities')
 	@include('sections.industries.entertainment.cards')

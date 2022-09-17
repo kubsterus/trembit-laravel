@@ -9,6 +9,7 @@ use App\View\Components\FAQComponent;
 use App\View\Components\Feedback;
 use App\View\Components\FoundersSectionComponent;
 use App\View\Components\HeroSection;
+use App\View\Components\IndustryBenefitsSection;
 use App\View\Components\IndustryOverview;
 use App\View\Components\LetsUsCenteredSectionComponent;
 use App\View\Components\LetsUsSectionComponent;
