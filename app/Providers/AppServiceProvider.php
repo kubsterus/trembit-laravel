@@ -40,6 +40,7 @@ use App\View\Components\ScalabilitySection;
 use App\View\Components\ProducerSection;
 use App\View\Components\BlogSection;
 use App\View\Components\RecrutingBenefits;
+use App\View\Components\RecrutingGallery;
 use App\View\Components\RecrutingSkills;
 use App\View\Components\RecrutingSteps;
 use App\View\Components\RecrutingVacancies;
@@ -107,5 +108,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('recruting-vacancies', RecrutingVacancies::class);
         Blade::component('recruting-values', RecrutingValues::class);
         Blade::component('recruting-steps', RecrutingSteps::class);
+        Blade::component('recruting-gallery', RecrutingGallery::class);
     }
 }

@@ -23,7 +23,7 @@
 	<x-recruting-vacancies></x-recruting-vacancies>
 	<x-recruting-values></x-recruting-values>
 	<x-recruting-steps></x-recruting-steps>
-	@include('sections.recruting.gallery')
+	<x-recruting-gallery></x-recruting-gallery>
 	@include('sections.recruting.contact')
 	@include('sections.recruting.contacts')
 
