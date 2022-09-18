@@ -41,6 +41,7 @@ use App\View\Components\ProducerSection;
 use App\View\Components\BlogSection;
 use App\View\Components\RecrutingBenefits;
 use App\View\Components\RecrutingSkills;
+use App\View\Components\RecrutingVacancies;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -101,5 +102,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('qna-section', QNASection::class);
         Blade::component('recruting-benefits', RecrutingBenefits::class);
         Blade::component('recruting-skills', RecrutingSkills::class);
+        Blade::component('recruting-vacancies', RecrutingVacancies::class);
     }
 }
