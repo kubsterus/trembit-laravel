@@ -1,7 +1,7 @@
 <header id="dark">
     <div class="wrapper headerWrapper">
         <div class="logo">
-            <a href="https://trembit.com/">
+            <a href="/">
                 <img alt="logo" id="whiteLogo" class="logoImage logo-link" src="{{asset('view/images/logo@2x.svg')}}" width="151" height="24">
                 <img alt="logo" id="blackLogo" class="logoImage logo-link" src="{{asset('view/images/logoDark@2x.svg')}}" width="151" height="24" style="display:none;">
             </a>

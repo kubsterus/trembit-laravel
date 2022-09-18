@@ -5,7 +5,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="{{asset('view/favicons/favicon-16x16.png')}}">
 <link rel="manifest" href="{{asset('view/favicons/site.webmanifest')}}">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
-<title>Live Video Streaming App Development Company | Trembit</title>
+<title>{{$meta['title'] ?? ''}}</title>
 <script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -24,15 +24,15 @@
     </script>
 
 <meta name="robots" content="noodp,noydir" />
-<meta name="description" content="Our company provides custom video streaming app development ⚡ to improve real-time communication: conferencing systems, e-Learning platforms, Games, Live auctions." />
-<meta name="image" content="https://trembit.com/view/images/logo_trembit.png" />
-<meta name="url" content="https://trembit.com/" />
+<meta name="description" content="{{$meta['description'] ?? ''}}" />
+<meta name="image" content="{{asset('view/images/logo_trembit.png')}}" />
+<meta name="url" content="{{Request::url()}}" />
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<meta name="keywords" content="Live streaming apps, Online conferencing systems, e-Learning platforms, Trivia games, Live auctions, WebRTC, WebRTC Platform, WebRTC API, WebRTC Mobile, WebRTC iOS, WebRTC Android, real-time communications, video communications, video, development">
-<meta property="og:title" content="Trembit - Video streaming applications development company">
-<meta property="og:description" content="Trembit provides custom video streaming software to improve real-time communication: Online conferencing systems, e-Learning platforms, Games, Live auctions, Internet messengers">
-<meta property="og:url" content="https://trembit.com/">
-<meta property="og:image" content="https://trembit.com/view/images/logo_trembit.png">
+<meta name="keywords" content="{{$meta['keywords'] ?? ''}}">
+<meta property="og:title" content="{{$meta['og:title'] ?? ''}}">
+<meta property="og:description" content="{{$meta['og:description'] ?? ''}}">
+<meta property="og:url" content="{{Request::url()}}">
+<meta property="og:image" content="{{asset('view/images/logo_trembit.png')}}">
 
 <!-- Google Tag Manager -->
 <script>
