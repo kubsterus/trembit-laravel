@@ -52,7 +52,7 @@
         [
             'picture' => asset('view/images/industries/cyber-security.webp'),
             'title' => 'High level of security',
-            'content' => 'By choosing this system, you can be completely sure of the security of your data. Encryption is mandatory for all WebRTC components. Since it is not a plugin, it runs inside the browser without creating a new process, so that no malware can enter the user's system.'
+            'content' => 'By choosing this system, you can be completely sure of the security of your data. Encryption is mandatory for all WebRTC components. Since it is not a plugin, it runs inside the browser without creating a new process, so that no malware can enter the user\'s system.'
         ],
         [
             'picture' => asset('view/images/industries/speed.webp'),

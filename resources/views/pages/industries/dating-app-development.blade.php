@@ -20,7 +20,7 @@
                                  :items="
             [
                 [
-                    'title' => 'R&amp;D',
+                    'title' => 'R&D',
                     'text' => 'Building a successful dating app isn\'t just about back-end and front-end development. This is a multi-level process that we will guide you through every step of the way. At the beginning of our journey, our analysts will conduct a study of your business, target audience, and competitors. This will help us identify the goals and strengths of your company, as well as the needs of prospective customers, which will serve as a reference point for our dating app developers.',
                     'icon' => asset('view/images/industries/data-research.webp'),
                 ],
@@ -30,7 +30,7 @@
                     'icon' => asset('view/images/industries/web-design.webp'),
                 ],
                 [
-                    'title' => 'IOS &amp; Android Dating App Development',
+                    'title' => 'IOS & Android Dating App Development',
                     'text' => 'Trembit, a dating app development company, invents dating industry solutions for both Android and iOS users. In addition, cross-platform mobile dating software supports most devices to provide users with flexibility. Our iOS dating app developer uses Swift, SwiftUI, Combine, and RxSwift to create an app that rivals the competition. Android dating app developers work with Kotlin, JetPack and RxJava.',
                     'icon' => asset('view/images/industries/smartphone_1.webp'),
                 ],
@@ -115,7 +115,7 @@
         ],
         [
             'question' => 'What is the process of developing a dating app like?',
-            'answer' => 'Market research and competitor analysis is the first thing that R&amp;D experts in a dating app development company do before starting dating software development. Then they determine the matchmaking algorithms and the strengths of your future application, and also select the most useful features for it.
+            'answer' => 'Market research and competitor analysis is the first thing that R&D experts in a dating app development company do before starting dating software development. Then they determine the matchmaking algorithms and the strengths of your future application, and also select the most useful features for it.
                             <br>
                             Next, UI/UX design is developed, and a clickable app prototype is created to determine the usability and consistency of the app features.
                             <br>

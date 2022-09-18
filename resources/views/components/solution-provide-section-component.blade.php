@@ -16,7 +16,7 @@
 <section id="solutionprovide">
     <div class="wrapper">
         <div id="title">
-            <h2 style="color: #0390d4;">{{$title}}</h2>
+            <h2>{{$title}}</h2>
             <picture><source srcset="{{$logo}}" type="image/webp"><img src="{{$logo}}" style="max-width:207px;" alt="logo"></source></picture>
             <picture><source srcset="{{$logo_big}}" type="image/webp"><img class="img-m" src="{{$logo_big}}" style="width: 100%;padding: 15px 0px;" alt="logo"></source></picture>
             <ul class="last">

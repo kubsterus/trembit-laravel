@@ -1,5 +1,5 @@
 @props([
-    'title' => 'Let us work together',
+    'title' => 'Lets us work together',
     'description' => [
         'Trembit team is open to discuss your solution and project requirements. Fill in the form to schedule a call with WebRTC experts.',
         'Looking forward to your message!'

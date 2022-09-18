@@ -46,7 +46,7 @@
             'shadow_image' => asset('view/images/icon/shadow_purple.webp'),
             'list' => [
                 'Design review',
-                'Load &amp; Performance',
+                'Load & Performance',
                 'Environment analyzing',
                 'Requirements testing',
                 'Defect analyzing',

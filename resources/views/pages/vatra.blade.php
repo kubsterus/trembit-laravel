@@ -1,7 +1,7 @@
 @extends('skeleton')
 
 @section('critical_styles')
-	@inlineCss(css/stusan.css)
+	@inlineCss(css/varta.css)
 @endsection
 @section('content')
     <x-solutionprovide-section title="White Label Janus-based video conferencing software."

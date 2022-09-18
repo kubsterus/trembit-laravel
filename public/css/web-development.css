@@ -5,6 +5,38 @@ picture {
 
 body {
   background-color: black;
+  margin: 0;
+}
+@keyframes spin2 {
+  0% {
+    transform: translate3d(0, 7%, 0);
+  }
+
+  50% {
+    transform: translate3d(0, -7%, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 7%, 0);
+  }
+}
+h1, h2 {
+  text-align: center;
+}
+section {
+  width: 100%;
+  min-height: calc(100vh - 45px);
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+
+#title h1 {
+  font: normal normal bold 72px/85px Lato;
+}
+
+#title p {
+  color: #fff;
 }
 
 * {
@@ -13,12 +45,8 @@ body {
 }
 
 #titleWrapper {
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
 }
 
 #titleWrapper #title {
@@ -293,7 +321,7 @@ h2.title {
 
 .img-web2 {
   height: 47vh;
-  margin-top: -19vh;
+  margin-top: -19.1vh;
   margin-left: -32vw;
 }
 

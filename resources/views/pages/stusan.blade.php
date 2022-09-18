@@ -20,7 +20,7 @@
     ></x-solutionprovide-section>
     <x-project-overview-section left_title="Included features:"
         :left_list="[
-            'Included features:',
+            'Video conferencing',
             'File sharing during the video call',
             'File and document storage. All the shared items could be downloaded after the video call',
             'Screen sharing of a full screen or the specific tab/window on the device',

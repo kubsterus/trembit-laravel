@@ -5,30 +5,75 @@
     Siema.prototype.addArrows = function () {
 
         // make buttons & append them inside Siema's container
-        //this.prevArrow = document.createElement('button');
-        // this.nextArrow = document.createElement('button');
+        this.prevArrow = document.createElement('button');
+        this.nextArrow = document.createElement('button');
         //this.prevArrow.textContent = 'previous slide';
-        //this.nextArrow.textContent = 'next slide';
-        //this.selector.appendChild(this.prevArrow);
-        //this.selector.appendChild(this.nextArrow);
+        //this.nextArrow.textContent = '>';
+        this.selector.appendChild(this.prevArrow);
+        this.selector.appendChild(this.nextArrow);
 
         // event handlers on buttons
-        //this.prevArrow.addEventListener('click', () => this.prev());
-        //this.nextArrow.addEventListener('click', () => this.next());
+        this.prevArrow.addEventListener('click', () => this.prev());
+        this.nextArrow.addEventListener('click', () => this.next());
     };
 
     // this is fairly new way of looping through DOM Elements
     // More about ithere: https://pawelgrzybek.com/loop-through-a-collection-of-dom-elements/
     // For better compatibility I suggest using for loop
+
+    const windowWidth = window.innerWidth
+    let ecop2 = 1
+    if (windowWidth >= 768) {
+        ecop2 = 3
+    }
+    if (windowWidth >= 1568) {
+        ecop2 = 4
+    }
     for (const riema of riemas) {
         const instance = new Siema({
             selector: riema,
-            perPage: 1,
+            perPage: ecop2,
             loop: true
         });
 
         instance.addArrows();
     };
+    const niemas = document.querySelectorAll('.niema');
+    Siema.prototype.addArrows = function () {
+
+        // make buttons & append them inside Siema's container
+        this.prevArrow = document.createElement('button');
+        this.nextArrow = document.createElement('button');
+        //this.prevArrow.textContent = 'previous slide';
+        //this.nextArrow.textContent = '>';
+        this.selector.appendChild(this.prevArrow);
+        this.selector.appendChild(this.nextArrow);
+
+        // event handlers on buttons
+        this.prevArrow.addEventListener('click', () => this.prev());
+        this.nextArrow.addEventListener('click', () => this.next());
+    };
+
+    // this is fairly new way of looping through DOM Elements
+    // More about ithere: https://pawelgrzybek.com/loop-through-a-collection-of-dom-elements/
+    // For better compatibility I suggest using for loop
+
+    let ecop = 1
+    if (windowWidth >= 768) {
+        ecop = 3
+    }
+	if (windowWidth >= 768) {
+		for (const niema of niemas) {
+			const instance = new Siema({
+				selector: niema,
+				perPage: ecop,
+				loop: true
+			});
+
+			instance.addArrows();
+		};
+    } else {
+    }
     var acc = document.getElementsByClassName("accordion");
     var i;
 

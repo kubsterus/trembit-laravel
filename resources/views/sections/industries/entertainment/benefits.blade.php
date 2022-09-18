@@ -6,8 +6,8 @@
 							<div class="benefits__row">
 								<div class="benefits__col">
 									<div class="benefits__item">
-										<div class="benefits__item-icon"><picture><source srcset="../img/benefits/icons/01.webp" type="image/webp"><img src="../img/benefits/icons/01.png" alt="R&amp;D"></source></picture></div>
-										<h3 class="benefits__item-title">R&amp;D</h3>
+										<div class="benefits__item-icon"><picture><source srcset="../img/benefits/icons/01.webp" type="image/webp"><img src="../img/benefits/icons/01.png" alt="R&D"></source></picture></div>
+										<h3 class="benefits__item-title">R&D</h3>
 										<p class="benefits__item-desc">A competent approach to the process of developing solutions for the media and entertainment industry involves a set of research tasks that are solved by our analysts. This includes defining the target audience, as well as analyzing the market and competitors. According to the research, experts determine the choice of technology stack and application functionality.</p>
 									</div>
 									<div class="benefits__item">

@@ -44,3 +44,4 @@
 </script>
 <!-- End Google Tag Manager -->
 <link rel="stylesheet" href="{{asset('css/header_footer.css')}}">
+<link rel="stylesheet" href="{{asset('css/style.css')}}">

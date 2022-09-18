@@ -12,13 +12,10 @@ body {
   box-sizing: border-box;
 }
 
+
 #titleWrapper {
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
 }
 
 #titleWrapper #title {

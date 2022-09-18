@@ -32,6 +32,15 @@ use App\View\Components\WhyBlock;
 use App\View\Components\WorksSectionComponent;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use App\View\Components\KeyFeatures;
+use App\View\Components\GamePhases;
+use App\View\Components\ChooseFrom;
+use App\View\Components\GamesSection;
+use App\View\Components\ScalabilitySection;
+use App\View\Components\ProducerSection;
+use App\View\Components\BlogSection;
+
+
 
 
 class AppServiceProvider extends ServiceProvider

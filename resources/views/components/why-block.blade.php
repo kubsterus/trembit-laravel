@@ -1,7 +1,7 @@
 @props([
     'title' => 'Why title',
     'subtitle' => '',
-    'items' => []
+    'items' => [],
     'image' => 'https://via.placeholder.com/400x300'
 ])
 <section class="gr-s-l">

@@ -1,5 +1,5 @@
 @props([
-    'title' => 'Let us work <br> together',
+    'title' => 'Lets us work <br> together',
     'action' => '/send.php',
     'messages' => [
         'success' => 'Thank you! Your message has been successfully sent. We will contact you as soon as we review your message.',
