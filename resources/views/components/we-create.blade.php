@@ -9,321 +9,321 @@
             </p>',
     'logos' => [
 [
-    'src' => 'view/images/hm/NodeJS.png',
+    'src' => asset('view/images/hm/NodeJS.png'),
     'alt' => 'NodeJS',
     'srcset' => [
     [
-        'link' => 'view/images/hm/NodeJS.webp',
+        'link' => asset('view/images/hm/NodeJS.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Angular.png',
+    'src' => asset('view/images/hm/Angular.png'),
     'alt' => 'Angular',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Angular.webp',
+        'link' => asset('view/images/hm/Angular.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Twilio.png',
+    'src' => asset('view/images/hm/Twilio.png'),
     'alt' => 'Twilio',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Twilio.webp',
+        'link' => asset('view/images/hm/Twilio.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/WebRTC.png',
+    'src' => asset('view/images/hm/WebRTC.png'),
     'alt' => 'WebRTC',
     'srcset' => [
     [
-        'link' => 'view/images/hm/WebRTC.webp',
+        'link' => asset('view/images/hm/WebRTC.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/PostgreSQL.png',
+    'src' => asset('view/images/hm/PostgreSQL.png'),
     'alt' => 'PostgreSQL',
     'srcset' => [
     [
-        'link' => 'view/images/hm/PostgreSQL.webp',
+        'link' => asset('view/images/hm/PostgreSQL.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/JanuswebRTC.png',
+    'src' => asset('view/images/hm/JanuswebRTC.png'),
     'alt' => 'JanuswebRTC',
     'srcset' => [
     [
-        'link' => 'view/images/hm/JanuswebRTC.webp',
+        'link' => asset('view/images/hm/JanuswebRTC.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Jitsi.png',
+    'src' => asset('view/images/hm/Jitsi.png'),
     'alt' => 'Jitsi',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Jitsi.webp',
+        'link' => asset('view/images/hm/Jitsi.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/agora-logo.png',
+    'src' => asset('view/images/hm/agora-logo.png'),
     'alt' => 'Agora',
     'srcset' => [
     [
-        'link' => 'view/images/hm/agora-logo.webp',
+        'link' => asset('view/images/hm/agora-logo.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/aws-cloudfront.png',
+    'src' => asset('view/images/hm/aws-cloudfront.png'),
     'alt' => 'AWS Cloudfront',
     'srcset' => [
     [
-        'link' => 'view/images/hm/aws-cloudfront.webp',
+        'link' => asset('view/images/hm/aws-cloudfront.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/aws-c3.png',
+    'src' => asset('view/images/hm/aws-c3.png'),
     'alt' => 'AWS C3',
     'srcset' => [
     [
-        'link' => 'view/images/hm/aws-c3.webp',
+        'link' => asset('view/images/hm/aws-c3.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/aws-lambda.png',
+    'src' => asset('view/images/hm/aws-lambda.png'),
     'alt' => 'AWS Lambda',
     'srcset' => [
     [
-        'link' => 'view/images/hm/aws-lambda.webp',
+        'link' => asset('view/images/hm/aws-lambda.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/aws-sns.png',
+    'src' => asset('view/images/hm/aws-sns.png'),
     'alt' => 'AWS Sns',
     'srcset' => [
     [
-        'link' => 'view/images/hm/aws-sns.webp',
+        'link' => asset('view/images/hm/aws-sns.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/millicast-logo-h.png',
+    'src' => asset('view/images/hm/millicast-logo-h.png'),
     'alt' => 'Millicast',
     'srcset' => [
     [
-        'link' => 'view/images/hm/millicast-logo-h.webp',
+        'link' => asset('view/images/hm/millicast-logo-h.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/wowza-media-systems-vector-logo.png',
+    'src' => asset('view/images/hm/wowza-media-systems-vector-logo.png'),
     'alt' => 'Wowza Media Systems',
     'srcset' => [
     [
-        'link' => 'view/images/hm/wowza-media-systems-vector-logo.webp',
+        'link' => asset('view/images/hm/wowza-media-systems-vector-logo.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Red5PRO.png',
+    'src' => asset('view/images/hm/Red5PRO.png'),
     'alt' => 'Red5PRO',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Red5PRO.webp',
+        'link' => asset('view/images/hm/Red5PRO.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Tokbox.png',
+    'src' => asset('view/images/hm/Tokbox.png'),
     'alt' => 'Tokbox',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Tokbox.webp',
+        'link' => asset('view/images/hm/Tokbox.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/jenkins.png',
+    'src' => asset('view/images/hm/jenkins.png'),
     'alt' => 'Jenkins',
     'srcset' => [
     [
-        'link' => 'view/images/hm/jenkins.webp',
+        'link' => asset('view/images/hm/jenkins.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/traefik.png',
+    'src' => asset('view/images/hm/traefik.png'),
     'alt' => 'Traefik',
     'srcset' => [
     [
-        'link' => 'view/images/hm/traefik.webp',
+        'link' => asset('view/images/hm/traefik.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/docker-1.png',
+    'src' => asset('view/images/hm/docker-1.png'),
     'alt' => 'Docker',
     'srcset' => [
     [
-        'link' => 'view/images/hm/docker-1.webp',
+        'link' => asset('view/images/hm/docker-1.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/docker-1.png',
+    'src' => asset('view/images/hm/docker-1.png'),
     'alt' => 'Docker',
     'srcset' => [
     [
-        'link' => 'view/images/hm/docker-1.webp',
+        'link' => asset('view/images/hm/docker-1.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/mongodb-ar21.png',
+    'src' => asset('view/images/hm/mongodb-ar21.png'),
     'alt' => 'Mongodb',
     'srcset' => [
     [
-        'link' => 'view/images/hm/mongodb-ar21.webp',
+        'link' => asset('view/images/hm/mongodb-ar21.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Prometric.png',
+    'src' => asset('view/images/hm/Prometric.png'),
     'alt' => 'Prometric',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Prometric.webp',
+        'link' => asset('view/images/hm/Prometric.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Grafana.png',
+    'src' => asset('view/images/hm/Grafana.png'),
     'alt' => 'Grafana',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Grafana.webp',
+        'link' => asset('view/images/hm/Grafana.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Elasticsearch.png',
+    'src' => asset('view/images/hm/Elasticsearch.png'),
     'alt' => 'Elasticsearch',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Elasticsearch.webp',
+        'link' => asset('view/images/hm/Elasticsearch.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/python-ar21.png',
+    'src' => asset('view/images/hm/python-ar21.png'),
     'alt' => 'Python',
     'srcset' => [
     [
-        'link' => 'view/images/hm/python-ar21.webp',
+        'link' => asset('view/images/hm/python-ar21.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Trembit_2p2.png',
+    'src' => asset('view/images/hm/Trembit_2p2.png'),
     'alt' => 'Trembit 2P2',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Trembit_2p2.webp',
+        'link' => asset('view/images/hm/Trembit_2p2.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Firebase.png',
+    'src' => asset('view/images/hm/Firebase.png'),
     'alt' => 'Firebase',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Firebase.webp',
+        'link' => asset('view/images/hm/Firebase.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Cassandra.png',
+    'src' => asset('view/images/hm/Cassandra.png'),
     'alt' => 'Cassandra',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Cassandra.webp',
+        'link' => asset('view/images/hm/Cassandra.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/google-cloud-platform-logo.png',
+    'src' => asset('view/images/hm/google-cloud-platform-logo.png'),
     'alt' => 'Google Cloud Platform',
     'srcset' => [
     [
-        'link' => 'view/images/hm/google-cloud-platform-logo.webp',
+        'link' => asset('view/images/hm/google-cloud-platform-logo.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/Angora.png',
+    'src' => asset('view/images/hm/Angora.png'),
     'alt' => 'Angora',
     'srcset' => [
     [
-        'link' => 'view/images/hm/Angora.webp',
+        'link' => asset('view/images/hm/Angora.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/react-native-1.png',
+    'src' => asset('view/images/hm/react-native-1.png'),
     'alt' => 'React Native',
     'srcset' => [
     [
-        'link' => 'view/images/hm/react-native-1.webp',
+        'link' => asset('view/images/hm/react-native-1.webp'),
         'type' => 'image/webp'
     ]
 ]
 ],
                         [
-    'src' => 'view/images/hm/redis-ar21.png',
+    'src' => asset('view/images/hm/redis-ar21.png'),
     'alt' => 'Redis Ar21',
     'srcset' => [
     [
-        'link' => 'view/images/hm/redis-ar21.webp',
+        'link' => asset('view/images/hm/redis-ar21.webp'),
         'type' => 'image/webp'
     ]
 ]

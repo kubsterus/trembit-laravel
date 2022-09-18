@@ -4,11 +4,11 @@
     'items' => [
         [
             'picture' => [
-                'src' => 'view/images/hm/responsive.png',
+                'src' => asset('view/images/hm/responsive.png'),
                 'alt' => 'Responsive',
                 'srcset' => [
                     [
-                        'link' => 'view/images/hm/responsive.webp',
+                        'link' => asset('view/images/hm/responsive.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -18,11 +18,11 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/hm/web-design.png',
+                'src' => asset('view/images/hm/web-design.png'),
                 'alt' => 'Web Design',
                 'srcset' => [
                     [
-                        'link' => 'view/images/hm/web-design.webp',
+                        'link' => asset('view/images/hm/web-design.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -32,11 +32,11 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/hm/web-maintenance.png',
+                'src' => asset('view/images/hm/web-maintenance.png'),
                 'alt' => 'Web Maintenance',
                 'srcset' => [
                     [
-                        'link' => 'view/images/hm/web-maintenance.webp',
+                        'link' => asset('view/images/hm/web-maintenance.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -46,11 +46,11 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/hm/prototyping.png',
+                'src' => asset('view/images/hm/prototyping.png'),
                 'alt' => 'Prototyping',
                 'srcset' => [
                     [
-                        'link' => 'view/images/hm/prototyping.webp',
+                        'link' => asset('view/images/hm/prototyping.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -60,11 +60,11 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/hm/data-research.png',
+                'src' => asset('view/images/hm/data-research.png'),
                 'alt' => 'Data research',
                 'srcset' => [
                     [
-                        'link' => 'view/images/hm/data-research.webp',
+                        'link' => asset('view/images/hm/data-research.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -74,11 +74,11 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/hm/user-interface.png',
+                'src' => asset('view/images/hm/user-interface.png'),
                 'alt' => 'User interface',
                 'srcset' => [
                     [
-                        'link' => 'view/images/hm/user-interface.webp',
+                        'link' => asset('view/images/hm/user-interface.webp'),
                         'type' => 'image/webp',
                     ],
                 ],

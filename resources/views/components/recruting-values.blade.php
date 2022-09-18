@@ -5,11 +5,11 @@
             product on a global market that helps our clients to gain benefits on a competitive market and make a new
             grade in communication and connections.',
     'bgImage' => [
-        'src' => 'img/values/01.jpg',
+        'src' => asset('img/values/01.jpg'),
         'alt' => 'Background',
         'srcset' => [
             [
-                'link' => 'img/values/bg.webp',
+                'link' => asset('img/values/bg.webp'),
                 'type' => 'image/webp',
             ],
         ],
@@ -17,11 +17,11 @@
     'items' => [
         [
             'picture' => [
-                'src' => 'img/values/01.png',
+                'src' => asset('img/values/01.png'),
                 'alt' => 'Team',
                 'srcset' => [
                     [
-                        'link' => 'img/values/01.webp',
+                        'link' => asset('img/values/01.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -33,11 +33,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/values/02.png',
+                'src' => asset('img/values/02.png'),
                 'alt' => 'Balance',
                 'srcset' => [
                     [
-                        'link' => 'img/values/02.webp',
+                        'link' => asset('img/values/02.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -49,11 +49,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/values/03.png',
+                'src' => asset('img/values/03.png'),
                 'alt' => 'Customers',
                 'srcset' => [
                     [
-                        'link' => 'img/values/03.webp',
+                        'link' => asset('img/values/03.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -65,11 +65,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/values/04.png',
+                'src' => asset('img/values/04.png'),
                 'alt' => 'Continuous perfection and a desire to grow',
                 'srcset' => [
                     [
-                        'link' => 'img/values/04.webp',
+                        'link' => asset('img/values/04.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -81,11 +81,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/values/05.png',
+                'src' => asset('img/values/05.png'),
                 'alt' => 'TeLoyalty and transparencyam',
                 'srcset' => [
                     [
-                        'link' => 'img/values/05.webp',
+                        'link' => asset('img/values/05.webp'),
                         'type' => 'image/webp',
                     ],
                 ],

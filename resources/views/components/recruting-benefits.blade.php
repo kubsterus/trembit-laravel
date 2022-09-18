@@ -3,21 +3,21 @@
     'items' => [
         [
             'image' => [
-                'link' => 'img/benefits/01.svg',
+                'link' => asset('img/benefits/01.svg'),
                 'alt' => '12 year on the market'
             ],
             'text' => '12 year<span>on the market</span>'
         ],
         [
             'image' => [
-                'link' => 'img/benefits/02.svg',
+                'link' => asset('img/benefits/02.svg'),
                 'alt' => '45+ team members'
             ],
             'text' => '45+<span>team members</span>'
         ],
         [
             'image' => [
-                'link' => 'img/benefits/03.svg',
+                'link' => asset('img/benefits/03.svg'),
                 'alt' => '120+ projects done'
             ],
             'text' => '120+<span>projects done</span>'

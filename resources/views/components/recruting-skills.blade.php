@@ -4,11 +4,11 @@
         [
             'title' => 'Telemedicine',
             'picture' => [
-                'src' => 'img/skills/01.png',
+                'src' => asset('img/skills/01.png'),
                 'alt' => 'Telemedicine',
                 'srcset' => [
                     [
-                        'link' => 'img/skills/01.webp',
+                        'link' => asset('img/skills/01.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -17,11 +17,11 @@
         [
             'title' => 'Entertainment & Social media',
             'picture' => [
-                'src' => 'img/skills/02.png',
+                'src' => asset('img/skills/02.png'),
                 'alt' => 'Entertainment & Social media',
                 'srcset' => [
                     [
-                        'link' => 'img/skills/02.webp',
+                        'link' => asset('img/skills/02.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -30,11 +30,11 @@
         [
             'title' => 'Educational platforms',
             'picture' => [
-                'src' => 'img/skills/03.png',
+                'src' => asset('img/skills/03.png'),
                 'alt' => 'Educational platforms',
                 'srcset' => [
                     [
-                        'link' => 'img/skills/03.webp',
+                        'link' => asset('img/skills/03.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -43,11 +43,11 @@
         [
             'title' => 'Dating apps',
             'picture' => [
-                'src' => 'img/skills/04.png',
+                'src' => asset('img/skills/04.png'),
                 'alt' => 'Dating apps',
                 'srcset' => [
                     [
-                        'link' => 'img/skills/04.webp',
+                        'link' => asset('img/skills/04.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -56,11 +56,11 @@
         [
             'title' => 'Online Events',
             'picture' => [
-                'src' => 'img/skills/05.png',
+                'src' => asset('img/skills/05.png'),
                 'alt' => 'Online Events',
                 'srcset' => [
                     [
-                        'link' => 'img/skills/05.webp',
+                        'link' => asset('img/skills/05.webp'),
                         'type' => 'image/webp',
                     ],
                 ],

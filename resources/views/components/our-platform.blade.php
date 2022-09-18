@@ -3,21 +3,21 @@
     'items' => [
         [
             'picture' => [
-                'src' => 'view/images/photo5373105573534479696.jpg',
+                'src' => asset('view/images/photo5373105573534479696.jpg'),
                 'alt' => 'Vatra',
                 'srcset' => [
                     [
-                        'link' => 'view/images/photo5373105573534479696.webp',
+                        'link' => asset('view/images/photo5373105573534479696.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureLogo' => [
-                'src' => 'view/images/vatra_logo.png',
+                'src' => asset('view/images/vatra_logo.png'),
                 'alt' => 'vatra logo',
                 'srcset' => [
                     [
-                        'link' => 'view/images/vatra_logo.webp',
+                        'link' => asset('view/images/vatra_logo.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -51,17 +51,17 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/photo5373105573534479695.jpg',
+                'src' => asset('view/images/photo5373105573534479695.jpg'),
                 'alt' => 'Stusan',
                 'srcset' => [
                     [
-                        'link' => 'view/images/photo5373105573534479695.webp',
+                        'link' => asset('view/images/photo5373105573534479695.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureLogo' => [
-                'src' => 'view/images/Stusanlogo.svg',
+                'src' => asset('view/images/Stusanlogo.svg'),
                 'alt' => 'Stusan logo',
                 'srcset' => [
                     
@@ -95,17 +95,17 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/photo5373105573534479694.jpg',
+                'src' => asset('view/images/photo5373105573534479694.jpg'),
                 'alt' => 'Stream to',
                 'srcset' => [
                     [
-                        'link' => 'view/images/photo5373105573534479694.webp',
+                        'link' => asset('view/images/photo5373105573534479694.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureLogo' => [
-                'src' => 'view/images/StreamLOGO.svg',
+                'src' => asset('view/images/StreamLOGO.svg'),
                 'alt' => 'StreamLOGO',
                 'srcset' => [
                     

@@ -2,26 +2,26 @@
     'title' => 'Trembit Photos',
     'galleryLink' => [
         'picture' => [
-            'src' => 'img/gallery/dou.png',
+            'src' => asset('img/gallery/dou.png'),
             'alt' => 'DOU',
             'srcset' => [
                 [
-                    'link' => 'img/gallery/dou.webp',
+                    'link' => asset('img/gallery/dou.webp'),
                     'type' => 'image/webp',
                 ],
             ],
         ],
-        'link' => 'https://jobs.dou.ua/companies/trembit/',
+        'link' => asset('https://jobs.dou.ua/companies/trembit/'),
         'label' => 'jobs.dou.ua/companies/trembit'
     ],
     'items' => [
         [
             'picture' => [
-                'src' => 'img/gallery/01.jpg',
+                'src' => asset('img/gallery/01.jpg'),
                 'alt' => 'Picture 1',
                 'srcset' => [
                     [
-                        'link' => 'img/gallery/01.webp',
+                        'link' => asset('img/gallery/01.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -29,11 +29,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/gallery/02.jpg',
+                'src' => asset('img/gallery/02.jpg'),
                 'alt' => 'Picture 2',
                 'srcset' => [
                     [
-                        'link' => 'img/gallery/02.webp',
+                        'link' => asset('img/gallery/02.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -41,11 +41,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/gallery/03.jpg',
+                'src' => asset('img/gallery/03.jpg'),
                 'alt' => 'Picture 3',
                 'srcset' => [
                     [
-                        'link' => 'img/gallery/03.webp',
+                        'link' => asset('img/gallery/03.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -53,11 +53,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/gallery/04.jpg',
+                'src' => asset('img/gallery/04.jpg'),
                 'alt' => 'Picture 4',
                 'srcset' => [
                     [
-                        'link' => 'img/gallery/04.webp',
+                        'link' => asset('img/gallery/04.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -65,11 +65,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/gallery/05.jpg',
+                'src' => asset('img/gallery/05.jpg'),
                 'alt' => 'Picture 5',
                 'srcset' => [
                     [
-                        'link' => 'img/gallery/05.webp',
+                        'link' => asset('img/gallery/05.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -77,11 +77,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/gallery/06.jpg',
+                'src' => asset('img/gallery/06.jpg'),
                 'alt' => 'Picture 6',
                 'srcset' => [
                     [
-                        'link' => 'img/gallery/06.webp',
+                        'link' => asset('img/gallery/06.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -89,11 +89,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/gallery/07.jpg',
+                'src' => asset('img/gallery/07.jpg'),
                 'alt' => 'Picture 7',
                 'srcset' => [
                     [
-                        'link' => 'img/gallery/07.webp',
+                        'link' => asset('img/gallery/07.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -101,11 +101,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/gallery/08.jpg',
+                'src' => asset('img/gallery/08.jpg'),
                 'alt' => 'Picture 8',
                 'srcset' => [
                     [
-                        'link' => 'img/gallery/08.webp',
+                        'link' => asset('img/gallery/08.webp'),
                         'type' => 'image/webp',
                     ],
                 ],

@@ -3,31 +3,31 @@
     'items' => [
         [
             'picture' => [
-                'src' => 'img/industries/01-header.png',
+                'src' => asset('img/industries/01-header.png'),
                 'alt' => 'Industries header',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/01-header.webp',
+                        'link' => asset('img/industries/01-header.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureContent' => [
-                'src' => 'img/industries/01-content.png',
+                'src' => asset('img/industries/01-content.png'),
                 'alt' => 'Industries content',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/01-content.webp',
+                        'link' => asset('img/industries/01-content.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureFooter' => [
-                'src' => 'img/industries/01-footer.png',
+                'src' => asset('img/industries/01-footer.png'),
                 'alt' => 'Industries footer',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/01-footer.webp',
+                        'link' => asset('img/industries/01-footer.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -37,31 +37,31 @@
         ],
         [
             'picture' => [
-                'src' => 'img/industries/05-header.png',
+                'src' => asset('img/industries/05-header.png'),
                 'alt' => 'Industries header',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/05-header.webp',
+                        'link' => asset('img/industries/05-header.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureContent' => [
-                'src' => 'img/industries/05-content.png',
+                'src' => asset('img/industries/05-content.png'),
                 'alt' => 'Industries content',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/05-content.webp',
+                        'link' => asset('img/industries/05-content.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureFooter' => [
-                'src' => 'img/industries/05-footer.png',
+                'src' => asset('img/industries/05-footer.png'),
                 'alt' => 'Industries footer',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/05-footer.webp',
+                        'link' => asset('img/industries/05-footer.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -71,31 +71,31 @@
         ],
         [
             'picture' => [
-                'src' => 'img/industries/02-header.png',
+                'src' => asset('img/industries/02-header.png'),
                 'alt' => 'Industries header',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/02-header.webp',
+                        'link' => asset('img/industries/02-header.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureContent' => [
-                'src' => 'img/industries/02-content.png',
+                'src' => asset('img/industries/02-content.png'),
                 'alt' => 'Industries content',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/02-content.webp',
+                        'link' => asset('img/industries/02-content.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureFooter' => [
-                'src' => 'img/industries/02-footer.png',
+                'src' => asset('img/industries/02-footer.png'),
                 'alt' => 'Industries footer',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/02-footer.webp',
+                        'link' => asset('img/industries/02-footer.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -105,31 +105,31 @@
         ],
         [
             'picture' => [
-                'src' => 'img/industries/06-header.png',
+                'src' => asset('img/industries/06-header.png'),
                 'alt' => 'Industries header',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/06-header.webp',
+                        'link' => asset('img/industries/06-header.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureContent' => [
-                'src' => 'img/industries/06-content.png',
+                'src' => asset('img/industries/06-content.png'),
                 'alt' => 'Industries content',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/06-content.webp',
+                        'link' => asset('img/industries/06-content.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureFooter' => [
-                'src' => 'img/industries/06-footer.png',
+                'src' => asset('img/industries/06-footer.png'),
                 'alt' => 'Industries footer',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/06-footer.webp',
+                        'link' => asset('img/industries/06-footer.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -139,31 +139,31 @@
         ],
         [
             'picture' => [
-                'src' => 'img/industries/03-header.png',
+                'src' => asset('img/industries/03-header.png'),
                 'alt' => 'Industries header',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/03-header.webp',
+                        'link' => asset('img/industries/03-header.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureContent' => [
-                'src' => 'img/industries/03-content.png',
+                'src' => asset('img/industries/03-content.png'),
                 'alt' => 'Industries content',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/03-content.webp',
+                        'link' => asset('img/industries/03-content.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureFooter' => [
-                'src' => 'img/industries/03-footer.png',
+                'src' => asset('img/industries/03-footer.png'),
                 'alt' => 'Industries footer',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/03-footer.webp',
+                        'link' => asset('img/industries/03-footer.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -173,31 +173,31 @@
         ],
         [
             'picture' => [
-                'src' => 'img/industries/07-header.png',
+                'src' => asset('img/industries/07-header.png'),
                 'alt' => 'Industries header',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/07-header.webp',
+                        'link' => asset('img/industries/07-header.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureContent' => [
-                'src' => 'img/industries/07-content.png',
+                'src' => asset('img/industries/07-content.png'),
                 'alt' => 'Industries content',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/07-content.webp',
+                        'link' => asset('img/industries/07-content.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureFooter' => [
-                'src' => 'img/industries/07-footer.png',
+                'src' => asset('img/industries/07-footer.png'),
                 'alt' => 'Industries footer',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/07-footer.webp',
+                        'link' => asset('img/industries/07-footer.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -207,31 +207,31 @@
         ],
         [
             'picture' => [
-                'src' => 'img/industries/04-header.png',
+                'src' => asset('img/industries/04-header.png'),
                 'alt' => 'Industries header',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/04-header.webp',
+                        'link' => asset('img/industries/04-header.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureContent' => [
-                'src' => 'img/industries/04-content.png',
+                'src' => asset('img/industries/04-content.png'),
                 'alt' => 'Industries content',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/04-content.webp',
+                        'link' => asset('img/industries/04-content.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureFooter' => [
-                'src' => 'img/industries/04-footer.png',
+                'src' => asset('img/industries/04-footer.png'),
                 'alt' => 'Industries footer',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/04-footer.webp',
+                        'link' => asset('img/industries/04-footer.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -241,31 +241,31 @@
         ],
         [
             'picture' => [
-                'src' => 'img/industries/08-header.png',
+                'src' => asset('img/industries/08-header.png'),
                 'alt' => 'Industries header',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/08-header.webp',
+                        'link' => asset('img/industries/08-header.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureContent' => [
-                'src' => 'img/industries/08-content.png',
+                'src' => asset('img/industries/08-content.png'),
                 'alt' => 'Industries content',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/08-content.webp',
+                        'link' => asset('img/industries/08-content.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
             ],
             'pictureFooter' => [
-                'src' => 'img/industries/08-footer.png',
+                'src' => asset('img/industries/08-footer.png'),
                 'alt' => 'Industries footer',
                 'srcset' => [
                     [
-                        'link' => 'img/industries/08-footer.webp',
+                        'link' => asset('img/industries/08-footer.webp'),
                         'type' => 'image/webp',
                     ],
                 ],

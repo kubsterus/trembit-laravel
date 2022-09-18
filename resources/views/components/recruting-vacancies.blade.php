@@ -1,11 +1,11 @@
 @props([
     'title' => 'Hot vacancies',
     'titleIcon' => [
-        'src' => 'img/vacancies/01.webp',
+        'src' => asset('img/vacancies/01.webp'),
         'alt' => 'Hot vacancies',
         'srcset' => [
             [
-                'link' => 'img/vacancies/01.png',
+                'link' => asset('img/vacancies/01.png'),
                 'type' => 'image/webp',
             ],
         ],
@@ -17,11 +17,11 @@
     'items' => [
         [
             'picture' => [
-                'src' => 'img/vacancies/02.webp',
+                'src' => asset('img/vacancies/02.webp'),
                 'alt' => 'Project Manager',
                 'srcset' => [
                     [
-                        'link' => 'img/vacancies/02.png',
+                        'link' => asset('img/vacancies/02.png'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -39,11 +39,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/vacancies/03.webp',
+                'src' => asset('img/vacancies/03.webp'),
                 'alt' => '',
                 'srcset' => [
                     [
-                        'link' => 'img/vacancies/03.png',
+                        'link' => asset('img/vacancies/03.png'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -59,11 +59,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/vacancies/04.webp',
+                'src' => asset('img/vacancies/04.webp'),
                 'alt' => 'Project Manager',
                 'srcset' => [
                     [
-                        'link' => 'img/vacancies/04.png',
+                        'link' => asset('img/vacancies/04.png'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -81,11 +81,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/vacancies/05.webp',
+                'src' => asset('img/vacancies/05.webp'),
                 'alt' => 'Project Manager',
                 'srcset' => [
                     [
-                        'link' => 'img/vacancies/05.png',
+                        'link' => asset('img/vacancies/05.png'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -101,11 +101,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/vacancies/02.webp',
+                'src' => asset('img/vacancies/02.webp'),
                 'alt' => 'Project Manager',
                 'srcset' => [
                     [
-                        'link' => 'img/vacancies/02.png',
+                        'link' => asset('img/vacancies/02.png'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -123,11 +123,11 @@
         ],
         [
             'picture' => [
-                'src' => 'img/vacancies/03.webp',
+                'src' => asset('img/vacancies/03.webp'),
                 'alt' => 'Project Manager',
                 'srcset' => [
                     [
-                        'link' => 'img/vacancies/03.png',
+                        'link' => asset('img/vacancies/03.png'),
                         'type' => 'image/webp',
                     ],
                 ],

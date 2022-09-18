@@ -1,11 +1,11 @@
 @props([
     'title' => 'Hiring Steps',
     'lineImage' => [
-        'src' => 'img/steps/line.png',
+        'src' => asset('img/steps/line.png'),
         'alt' => '',
         'srcset' => [
             [
-                'link' => 'img/steps/line.webp',
+                'link' => asset('img/steps/line.webp'),
                 'type' => 'image/webp',
             ],
         ],

@@ -3,11 +3,11 @@
     'cases' => [
         [
             'picture' => [
-                'src' => 'view/images/Messaging_Platform.png',
+                'src' => asset('view/images/Messaging_Platform.png'),
                 'alt' => 'Messaging Platform',
                 'srcset' => [
                     [
-                        'link' => 'view/images/Messaging_Platform.webp',
+                        'link' => asset('view/images/Messaging_Platform.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -33,11 +33,11 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/Bullpit.png',
+                'src' => asset('view/images/Bullpit.png'),
                 'alt' => 'Bullpit',
                 'srcset' => [
                     [
-                        'link' => 'view/images/Bullpit.webp',
+                        'link' => asset('view/images/Bullpit.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -59,11 +59,11 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/Day_and_Night.png',
+                'src' => asset('view/images/Day_and_Night.png'),
                 'alt' => 'Day and Night',
                 'srcset' => [
                     [
-                        'link' => 'view/images/Day_and_Night.webp',
+                        'link' => asset('view/images/Day_and_Night.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -97,11 +97,11 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/iRecords.png',
+                'src' => asset('view/images/iRecords.png'),
                 'alt' => 'iRecords',
                 'srcset' => [
                     [
-                        'link' => 'view/images/iRecords.webp',
+                        'link' => asset('view/images/iRecords.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
