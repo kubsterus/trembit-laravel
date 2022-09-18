@@ -98,5 +98,7 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('scalability-section', ScalabilitySection::class);
         Blade::component('producer-section', ProducerSection::class);
         Blade::component('blog-section', BlogSection::class);
+        Blade::component('hero-section', HeroSection::class);
+        Blade::component('qna-section', QNASection::class);
     }
 }
