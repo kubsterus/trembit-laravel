@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class ScalabilitySection extends Component
+class HeroSection extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class ScalabilitySection extends Component
      */
     public function render()
     {
-        return view('components.scalability-section');
+        return view('components.hero-section');
     }
 }

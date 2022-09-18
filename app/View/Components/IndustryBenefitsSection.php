@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class GamesSection extends Component
+class IndustryBenefitsSection extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class GamesSection extends Component
      */
     public function render()
     {
-        return view('components.games-section');
+        return view('components.industry-benefits-section');
     }
 }
