@@ -18,7 +18,7 @@
 			<p class="hero__desc">More responsibility and personal growth of team players.</p>
 		</x-slot>
 	</x-hero-section>
-	@include('sections.recruting.benefits')
+	<x-recruting-benefits></x-recruting-benefits>
 	@include('sections.recruting.skills')
 	@include('sections.recruting.vacancies')
 	@include('sections.recruting.values')
