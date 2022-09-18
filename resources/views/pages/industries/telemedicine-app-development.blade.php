@@ -36,7 +36,7 @@
                 ],
                 [
                     'title' => 'Doctor/Nurse Telemedicine App',
-                    'text' => 'Using the telemedicine mobile application greatly simplifies and optimizes the workflow. As a result, doctors free up time that they can use effectively. For example, one can note the role of artificial intelligence, which can become a doctor's assistant. The hint function will make it easier to get a medical history during an appointment, and dynamically make adjustments to the questions based on the answers. Artificial intelligence algorithms can also help with the analysis of test results and disease diagnosis. <br> Among the useful doctor app tools are:<br>
+                    'text' => 'Using the telemedicine mobile application greatly simplifies and optimizes the workflow. As a result, doctors free up time that they can use effectively. For example, one can note the role of artificial intelligence, which can become a doctor\'s assistant. The hint function will make it easier to get a medical history during an appointment, and dynamically make adjustments to the questions based on the answers. Artificial intelligence algorithms can also help with the analysis of test results and disease diagnosis. <br> Among the useful doctor app tools are:<br>
                                 appointment management calendar;<br>
                                 e-prescription window;<br>
                                 patient electronic medical record;<br>
