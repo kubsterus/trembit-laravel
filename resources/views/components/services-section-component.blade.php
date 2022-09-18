@@ -1,5 +1,6 @@
 @props([
     'title' => 'Title',
+    'is_slider' => false,
     'items' => [
         [
             'title' => 'Service Title',
@@ -17,8 +18,11 @@
 <section id="servicesSection">
     <div class="wrapper servicesWrapper">
         <h2 class="title">{!! $title !!}</h2>
-        <div id="services">
+        <div id="services" class="{{$is_slider ? 'niema' : ''}}">
             @foreach($items as $idx=>$item)
+                @if($is_slider)
+                    <div>
+                @endif
                 <div class="block-3c">
                     <div class="service">
                         <div class="img-div-i">
@@ -33,6 +37,9 @@
                         </ul>
                     </div>
                 </div>
+                @if($is_slider)
+                    </div>
+                @endif
             @endforeach
         </div>
     </div>
