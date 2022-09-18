@@ -143,3 +143,8 @@
 @media (min-width: 768px) and (max-width: 1139px) {
     .img-div-i { margin-top: -215px !important; }
 }
+@media screen and (max-width: 767px) {
+    #services.niema {
+        overflow: unset !important;
+    }
+}

@@ -1,5 +1,5 @@
 @props([
-    'title' => 'Slider title',
+    'title' => 'FEATURED CASE STUDIES',
     'description' => '',
     'items' => [
         [

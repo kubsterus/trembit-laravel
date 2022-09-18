@@ -18,7 +18,7 @@
 <section id="servicesSection">
     <div class="wrapper servicesWrapper">
         <h2 class="title">{!! $title !!}</h2>
-        <div id="services" class="{{$is_slider ? 'niema' : ''}}">
+        <div id="services" class="{{$is_slider ? 'niema' : ''}}" style="{{$is_slider ? 'padding-top: 12vw; width: 84vw; position: relative; margin-left: auto; margin-right: auto; float: left; display: block; overflow: hidden; direction: ltr; cursor: -webkit-grab;' : ''}}">
             @foreach($items as $idx=>$item)
                 @if($is_slider)
                     <div>
