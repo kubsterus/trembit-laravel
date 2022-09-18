@@ -32,7 +32,7 @@
                     <li><a href="/software-development.html"><img alt="setting" src="/blog/wp-content/themes/magcrunch/view/images/setting.svg" height="16" style="padding-right:15px; height: 16px;">Web Development kit</a></li>
                     <li><a href="/ui-ux.html"><img alt="art-and-design" src="/blog/wp-content/themes/magcrunch/view/images/art-and-design.svg" height="16" style="padding-right:15px; height: 16px;">UX/UI</a></li>
                     <li><a href="/qa.html"><img alt="qa" src="/blog/wp-content/themes/magcrunch/view/images/virus-warning(1).svg" height="16" style="padding-right:15px; height: 16px;">QA</a></li>
-                    <li><a href="/rd.html"><img alt="rd" src="/blog/wp-content/themes/magcrunch/view/images/search(2).svg" height="16" style="padding-right:15px; height: 16px;">R&amp;D </a></li>
+                    <li><a href="/rd.html"><img alt="rd" src="/blog/wp-content/themes/magcrunch/view/images/search(2).svg" height="16" style="padding-right:15px; height: 16px;">R&D </a></li>
                 </ul>
             </div>
 

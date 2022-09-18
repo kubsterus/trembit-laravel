@@ -21,7 +21,7 @@
                     <li><a href="/software-development.html"><img alt="setting" src="view/images/setting.svg" height="16" style="padding-right:15px;">Web Development kit</a></li>
                     <li><a href="ui-ux.html"><img alt="art-and-design" src="view/images/art-and-design.svg" height="16" style="padding-right:15px;">UX/UI</a></li>
                     <li><a href="qa.html"><img alt="qa" src="view/images/virus-warning(1).svg" height="16" style="padding-right:15px;">QA</a></li>
-                    <li><a href="rd.html"><img alt="rd" src="view/images/search(2).svg" height="16" style="padding-right:15px;">R&amp;D </a></li>
+                    <li><a href="rd.html"><img alt="rd" src="view/images/search(2).svg" height="16" style="padding-right:15px;">R&D </a></li>
                 </ul>
             </div>
 

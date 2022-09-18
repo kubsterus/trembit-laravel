@@ -21,7 +21,7 @@
 									</div>
 									<div class="feedback-slider__item feedback-slider__item_green">
 										<div class="feedback-slider__item-body">
-											<div class="feedback-slider__item-text">Their proactive team gets things done as if it were their own project, consistently delivering high-quality outputs. Trembit&rsquo;s handy suggestions, adaptability, and customer-oriented approach stand out, but what really differentiates them is their ability to deeply understand business needs.</div>
+											<div class="feedback-slider__item-text">Their proactive team gets things done as if it were their own project, consistently delivering high-quality outputs. Trembit’s handy suggestions, adaptability, and customer-oriented approach stand out, but what really differentiates them is their ability to deeply understand business needs.</div>
 											<div class="feedback-slider__item-person">
 												<div class="feedback-slider__item-photo"><picture><source srcset="../img/feedback/aaron_castaneda.webp" type="image/webp"><img src="../img/feedback/aaron_castaneda.png" alt="Aaron Castaneda"></source></picture></div>
 												<div>
@@ -38,7 +38,7 @@
 												<div class="feedback-slider__item-photo"><picture><source srcset="../img/feedback/gil_meroz.webp" type="image/webp"><img src="../img/feedback/gil_meroz.png" alt="Gil Meroz"></source></picture></div>
 												<div>
 													<div class="feedback-slider__item-name">Gil Meroz</div>
-													<div class="feedback-slider__item-position">Head of Mobile&amp;Analytics at Appsflyer</div>
+													<div class="feedback-slider__item-position">Head of Mobile&Analytics at Appsflyer</div>
 												</div>
 											</div>
 										</div>
@@ -57,7 +57,7 @@
 							</div>
 							<div class="feedback__col">
 								<div class="feedback__item">
-									<div class="feedback__item-text">Their proactive team gets things done as if it were their own project, consistently delivering high-quality outputs. Trembit&rsquo;s handy suggestions, adaptability, and customer-oriented approach stand out, but what really differentiates them is their ability to deeply understand business needs.</div>
+									<div class="feedback__item-text">Their proactive team gets things done as if it were their own project, consistently delivering high-quality outputs. Trembit’s handy suggestions, adaptability, and customer-oriented approach stand out, but what really differentiates them is their ability to deeply understand business needs.</div>
 									<div class="feedback__item-person">
 										<div class="feedback__item-photo"><picture><source srcset="../img/feedback/aaron_castaneda.webp" type="image/webp"><img src="../img/feedback/aaron_castaneda.png" alt="Aaron Castaneda"></source></picture></div>
 										<div>
@@ -72,7 +72,7 @@
 										<div class="feedback__item-photo"><picture><source srcset="../img/feedback/gil_meroz.webp" type="image/webp"><img src="../img/feedback/gil_meroz.png" alt="Gil Meroz"></source></picture></div>
 										<div>
 											<div class="feedback__item-name">Gil Meroz</div>
-											<div class="feedback__item-position">Head of Mobile&amp;Analytics at Appsflyer</div>
+											<div class="feedback__item-position">Head of Mobile&Analytics at Appsflyer</div>
 										</div>
 									</div>
 								</div>

@@ -26,7 +26,7 @@
                 ],
                 [
                     'title' => 'Business Analysis',
-                    'text' => 'Health and fitness app developers present unique solutions based on individual customer needs only after careful study of your company and its target audience. The competition in this niche is very high, and the responsibility for the health of users is great. Therefore, our fitness app development company approaches the creation of digital solutions for fitness and health with great precision and meticulousness, paying attention to R&amp;D.',
+                    'text' => 'Health and fitness app developers present unique solutions based on individual customer needs only after careful study of your company and its target audience. The competition in this niche is very high, and the responsibility for the health of users is great. Therefore, our fitness app development company approaches the creation of digital solutions for fitness and health with great precision and meticulousness, paying attention to R&D.',
                     'icon' => asset('view/images/industries/seo.webp'),
                 ],
                 [

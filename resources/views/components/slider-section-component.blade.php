@@ -35,13 +35,14 @@
     @if($description)
         <p>{{$description}}</p>
     @endif
-    <div class="riema" style="width:100%;position:relative;margin-left: 150px;float: left;display: block;overflow: hidden!important;">
+    <div class="riema" style="width: 100%; position: relative; margin-left: 150px; float: left; display: block; overflow: hidden; direction: ltr; cursor: -webkit-grab;">
         @foreach($items as $idx => $item)
-        <div><a href="{{$item['link'] ?? ''}}">
-                <picture><source srcset="{{$item['image']}}" type="image/webp"><img decoding="async" alt="{{$title}} {{$idx+1}}" src="{{$item['image']}}" style="width: 100%;"></source></picture>
-                <h4>{{$item['title'] ?? ''}}</h4>
-            </a>
-        </div>
+            <div>
+                <a href="{{$item['link'] ?? ''}}">
+                    <picture><source srcset="{{$item['image']}}" type="image/webp"><img decoding="async" alt="{{$title}} {{$idx+1}}" src="{{$item['image']}}" style="width: 100%;"></source></picture>
+                    <h4>{{$item['title'] ?? ''}}</h4>
+                </a>
+            </div>
         @endforeach
     </div>
 </section>

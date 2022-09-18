@@ -42,7 +42,7 @@
                 ],
             ],
             'title' => 'Development and Maintenance',
-            'content' => 'In addition to design, much attention is naturally paid to the technical component, which is the core of any application. As technology advances rapidly, Trembit&rsquo;s video streaming mobile app development team is constantly exploring new solutions and working to improve digital products with the latest technology. This approach results in innovative digital goods that function smoothly, quickly and without failures.'
+            'content' => 'In addition to design, much attention is naturally paid to the technical component, which is the core of any application. As technology advances rapidly, Trembits video streaming mobile app development team is constantly exploring new solutions and working to improve digital products with the latest technology. This approach results in innovative digital goods that function smoothly, quickly and without failures.'
         ],
         [
             'picture' => [
@@ -69,8 +69,8 @@
                     ],
                 ],
             ],
-            'title' => 'R&amp;D',
-            'content' => 'To create a high-quality digital product with further market launch, it is very important to conduct research and analysis of the chosen niche. In the course of R&amp;D, our experts study your industry in detail, determine the target audience, competitors, as well as identify the strengths and weaknesses of your company.'
+            'title' => 'R&D',
+            'content' => 'To create a high-quality digital product with further market launch, it is very important to conduct research and analysis of the chosen niche. In the course of R&D, our experts study your industry in detail, determine the target audience, competitors, as well as identify the strengths and weaknesses of your company.'
         ],
         [
             'picture' => [
@@ -89,7 +89,7 @@
     ]
 ])
 <section id="sec-a-3">
-    <div class="sec-a-3-b">
+    <div class="sec-a-3-b sec-a-3-b--no-img">
         <div class="wrapper">
             <h2>{{$title}}</h2>
             @if($subtitle)

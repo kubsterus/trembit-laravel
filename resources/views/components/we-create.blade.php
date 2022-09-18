@@ -347,7 +347,7 @@
                         @foreach ($logo['srcset'] as $set)
                             <source srcset="{{$set['link']}}" type="{{$set['type']}}">
                         @endforeach
-                        <img alt="{{$logo['alt']}}" src="{{$logo['src']}}" style="width: 100%;"></source>
+                        <img alt="{{$logo['alt']}}" src="{{$logo['src']}}"></source>
                     </picture>
                 </div>
 

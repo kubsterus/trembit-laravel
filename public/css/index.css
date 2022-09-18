@@ -219,6 +219,10 @@ p {
   width: 100%;
 }
 
+.partners__col:nth-child(1) img {
+  display: block;
+}
+
 .partners__item img {
   width: 100%;
 }
@@ -1702,6 +1706,9 @@ footer .wrapper {
 }
 
 @media (min-width: 970px) {
+  #feedback .block-wt-50:nth-child(2) {
+    padding-top: 75px;
+  }
   #wecreate .bl-3w {
     padding: 70px 100px;
   }
@@ -2441,10 +2448,6 @@ footer .wrapper {
     display: none;
   }
 
-  .logoImage.logo-link {
-    padding-left: 20px;
-  }
-
   .stand-by img {
     padding-left: 20px;
     width: 70px;
@@ -2565,9 +2568,7 @@ footer .wrapper {
   }
 
   #titleWrapper {
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+    justify-content: flex-end !important;
   }
 
   .mob {

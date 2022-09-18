@@ -19,7 +19,7 @@
             'position' => 'Founder of Meetaway'
         ],
         [
-            'content' => 'Their proactive team gets things done as if it were their own project, consistently delivering high-quality outputs. Trembit&rsquo;s handy suggestions, adaptability, and customer-oriented approach stand out, but what really differentiates them is their ability to deeply understand business needs.',
+            'content' => 'Their proactive team gets things done as if it were their own project, consistently delivering high-quality outputs. Trembit’s handy suggestions, adaptability, and customer-oriented approach stand out, but what really differentiates them is their ability to deeply understand business needs.',
             'cardBG' => 'view/images/svg/Grren.svg',
             'picture' => [
                 'src' => 'view/images/person_1.png',
@@ -48,7 +48,7 @@
                 ],
             ],
             'name' => 'Gil Meroz',
-            'position' => 'Head of Mobile&amp;Analytics at Appsflyer'
+            'position' => 'Head of Mobile&Analytics at Appsflyer'
         ]
     ]
     

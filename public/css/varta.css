@@ -13,13 +13,9 @@ body {
 }
 
 #titleWrapper {
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  margin-top: 0px;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  margin-top: 0px !important;
 }
 
 #titleWrapper #title {
@@ -358,6 +354,14 @@ h2.title {
 
 #question {
   background: white;
+}
+
+#solutionprovide #title h2 {
+  color: #0390d4;
+}
+
+#block-s-2q .sec-a-3-b h3:before {
+  display: none;
 }
 
 #solutionprovide #title {

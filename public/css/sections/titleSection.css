@@ -1,14 +1,4 @@
-#titleSection #title h1 {
-    padding-left: 2vw;
-    padding-right: 2vw;
-    text-align: center;
-}
 #titleSection {
-    min-height: 70vh !important;
-    height: auto;
-}
-#titleSection {
-    background-color: #131217;
     position: relative;
     height: 100vh;
 }
@@ -48,5 +38,14 @@
         max-width: 100% !important;
         width: 100% !important;
         z-index: 3;
+    }
+    #titleSection #title h1 {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        text-align: center;
+    }
+    #titleSection {
+        min-height: 70vh !important;
+        height: auto;
     }
 }

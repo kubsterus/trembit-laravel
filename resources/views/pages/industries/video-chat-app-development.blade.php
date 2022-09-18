@@ -20,7 +20,7 @@
                                  :items="
             [
                 [
-                    'title' => 'R&amp;D',
+                    'title' => 'R&D',
                     'text' => 'Before starting video calling app development, it is essential to define the area in which our product will be applied and the audience that will use it. The properties and functionality of the future application depend on this. Therefore, experts from Trembit conduct research that will help you get exactly the application that will best suit your goals and needs.',
                     'icon' => asset('view/images/industries/data-research.webp'),
                 ],
@@ -46,12 +46,12 @@
                            :items="[
         [
             'picture' => asset('view/images/industries/video-call.webp'),
-            'title' => 'Video Calls &amp; Conferencing',
+            'title' => 'Video Calls & Conferencing',
             'content' => 'There are a lot of areas where the video call feature is extremely helpful: work meetings, distance learning, telemedicine, etc. During the video calling app development, advanced WebRTC technology is used. This guarantees the high quality of the sound and picture, as well as security. The number of participants is usually limited, so think about the maximum number of users before asking a video conferencing app development company to implement this feature.'
         ],
         [
             'picture' => asset('view/images/industries/audio-message.webp'),
-            'title' => 'Voice Call &amp; Conference',
+            'title' => 'Voice Call & Conference',
             'content' => 'When the video is not required for communication, audio calls are a good option, especially when the sound quality is top- notch. WebRTC, which is used in video calling app development, guarantees the quality and security of the line, which can be used for a secret meeting or private conversation.'
         ],
         [
@@ -97,7 +97,7 @@
             ],
             [
                 'Comprehensive Services'
-                'From R&amp;D to post-launch service, our video conferencing app development company accompanies you all the way through the video software creation.',
+                'From R&D to post-launch service, our video conferencing app development company accompanies you all the way through the video software creation.',
             ],
             [
                 'Implementation of New Technologies'
@@ -131,7 +131,7 @@
                                 <br>
                                 2. Approval of application features.
                                 <br>
-                                3. Creation of design (UI &amp; UX).
+                                3. Creation of design (UI & UX).
                                 <br>
                                 4. Prototyping - creating a clickable prototype of the future application.
                                 <br>

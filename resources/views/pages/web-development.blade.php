@@ -19,10 +19,10 @@
                 'image' => asset('view/images/icon/web_development_1.1.svg'),
                 'shadow_image' => asset('view/images/icon/shadow_purple.webp'),
                 'list' => [
-                    'User-centered UI design &amp; software development',
+                    'User-centered UI design & software development',
                     'Accelerated Mobile/Web Pages',
                     'Progressive Web Applications',
-                    'UI &amp; JS animations'
+                    'UI & JS animations'
                 ]
             ],
             [
@@ -68,7 +68,7 @@
             ],
             [
                 'title'=>'Backend development',
-                'text' => 'The first step in developing any marketing program - whether traditional, digital or social - is to engage in the Discovery process. This process essentially describes the research that we implement and the concepts that we draw on to answer these three primary questions. 1) Who ? Who is your target market? Or target markets? 2) What message(s) do we want to send to these people? 3) How? What are the most effective methods for delivering this message to this target market?'
+                'text' => 'We develop and maintain the code base that runs on the server ,receives requests from the clients, and contains the logic to send the appropriate data back to the client. Our back-end services include the creation and support of the database, server maintenance, architecture support and request-response logic.'
             ],
         ]"
         :right="[

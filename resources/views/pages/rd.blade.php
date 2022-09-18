@@ -6,17 +6,16 @@
 @section('content')
     <x-title-section>
         <x-slot name="title">
-            <h1>R &amp; D</h1>
+            <h1>R & D</h1>
             <p>Nowadays it is difficult to launch your digital product to the market without the market analysis and well written technical specification. We focus of detailed research of your industry, pros and cons of your company, as well as your competitors? to create high-quality software for startups and businesses that needs innovation</p>
             <img class="img-rd" src="view/images/services/RD/CENTEROFTHEBANNER.svg" alt="Software development kit">
-            </div>
         </x-slot>
     </x-title-section>
     <x-services-section title="Research and development services" :items="
         [
             [
-                'title' => 'Initial R&amp;D services',
-                'image' => asset('view/images/icon/R&amp;D_1.1.svg'),
+                'title' => 'Initial R&D services',
+                'image' => asset('view/images/icon/R&D_1.1.svg'),
                 'shadow_image' => asset('view/images/icon/shadow_light_blue.webp'),
                 'list' => [
                     'Tech stack definition',
@@ -28,7 +27,7 @@
             ],
             [
                 'title' => 'Scope preparation services',
-                'image' => asset('view/images/icon/R&amp;D_1.2.svg'),
+                'image' => asset('view/images/icon/R&D_1.2.svg'),
                 'shadow_image' => asset('view/images/icon/shadow_blue.webp'),
                 'list' => [
                     'MVP user stories creation',
@@ -45,7 +44,7 @@
                 'shadow_image' => asset('view/images/icon/shadow_light_blue.webp'),
                 'list' => [
                     'Complete User Stories',
-                    'Key BPMN (Business Process Model &amp; Notation)',
+                    'Key BPMN (Business Process Model & Notation)',
                     'Tech Scope',
                     'Tech Spike',
                     'Business Model',
@@ -78,7 +77,7 @@
             ],
             [
                 'title'=>'Product Rationale',
-                'text' => 'At this point, we&rsquo;ll have all the information we need to create the ultimate list of User Stories and features necessary to prove the main assumptions in a Minimum Viable Product (MVP) or Proof of Concept (POC). Our experts in Product, UX/UI and Tech Architecture will focus on finding the answers to all of the questions raised throughout our journey together. Outputs: Complete User Stories, Key BPMN (Business Process Model &amp; Notation), Tech Scope, Tech Spike, Business Model.'
+                'text' => 'At this point, well have all the information we need to create the ultimate list of User Stories and features necessary to prove the main assumptions in a Minimum Viable Product (MVP) or Proof of Concept (POC). Our experts in Product, UX/UI and Tech Architecture will focus on finding the answers to all of the questions raised throughout our journey together. Outputs: Complete User Stories, Key BPMN (Business Process Model &amp; Notation), Tech Scope, Tech Spike, Business Model.'
             ],
         ]"
     >

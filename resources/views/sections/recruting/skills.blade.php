@@ -10,8 +10,8 @@
             </div>
             <div class="skills__col">
                 <div class="skills__item">
-                    <div class="skills__item-icon"> <picture><source srcset="img/skills/02.webp" type="image/webp"><img src="img/skills/02.png" alt="Entertainment &amp; Social media"></source></picture></div>
-                    <h3 class="skills__item-title">Entertainment &amp; Social media</h3>
+                    <div class="skills__item-icon"> <picture><source srcset="img/skills/02.webp" type="image/webp"><img src="img/skills/02.png" alt="Entertainment & Social media"></source></picture></div>
+                    <h3 class="skills__item-title">Entertainment & Social media</h3>
                 </div>
             </div>
             <div class="skills__col">

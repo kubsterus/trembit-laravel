@@ -440,7 +440,7 @@ footer .wrapper {
     min-width: 123px;
   }
 }
-@media (min-width: 970px) {
+@media (max-width: 970px) {
   header li.menu-item.drop-el:hover,
   footer li.menu-item.drop-el:hover {
     border-bottom: 1px solid #f6583e !important;

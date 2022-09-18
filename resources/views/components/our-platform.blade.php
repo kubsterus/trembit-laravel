@@ -13,11 +13,11 @@
                 ],
             ],
             'pictureLogo' => [
-                'src' => 'view/images/LOGOVatra.png',
+                'src' => 'view/images/vatra_logo.png',
                 'alt' => 'vatra logo',
                 'srcset' => [
                     [
-                        'link' => 'view/images/LOGOVatra.webp',
+                        'link' => 'view/images/vatra_logo.webp',
                         'type' => 'image/webp',
                     ],
                 ],

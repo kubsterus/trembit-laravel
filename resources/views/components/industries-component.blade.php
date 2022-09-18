@@ -101,7 +101,7 @@
                 ],
             ],
             'content' => 'For both fitness enthusiasts and professional athletes, video streaming mobile app development can be a good solution to track progress and achieve the best results. As a live streaming app development company with years of experience, we create custom platforms or customize existing ones to suit your needs and goals. Our fitness app developers create software using advanced video content delivery tools. This applies to both OTT and video on demand app development. Fitness app users are able to train with a fitness trainer live, have online consultations with a nutritionist and share their results with other members of the fitness club.',
-            'title' => 'Sport<br>&amp; Fitness App'
+            'title' => 'Sport<br>& Fitness App'
         ],
         [
             'picture' => [
@@ -135,7 +135,7 @@
                 ],
             ],
             'content' => 'We live in an era where exploration of the world has become more accessible than ever before. Now that video streaming mobile app development is moving forward, you can travel without leaving. Streaming platforms will take you to the places you want to visit for sightseeing, visiting famous museums and galleries in real time. Moreover, a guide will give you an exciting tour, and you can share your impressions or ask questions. And what\'s even more incredible is that you can even purchase a real souvenir from the place you visited virtually!',
-            'title' => 'Travel &amp; Tourism'
+            'title' => 'Travel & Tourism'
         ],
         [
             'picture' => [
@@ -237,7 +237,7 @@
                 ],
             ],
             'content' => 'The demand for distance learning has led to the need of video streaming mobile app development. The goal was to ensure that e-learning was in no way inferior to offline learning and even surpassed it, making it more accessible and exciting. Products developed by Trembit experts in the field of educational technologies fully comply with the principles of distance education and the standards of public institutions. Our developers will take care of everything from comfortable virtual classrooms with a set of unusual interactive features to creating educational applications that will help make learning even easier and more fun. By using modern learning tools, educators will find it easier to keep the attention and engagement of their students, as well as track their progress. The innovative solutions we offer will take e-learning to the next level and leave little room for failure.',
-            'title' => 'Online Education<br>&amp; Training'
+            'title' => 'Online Education<br>& Training'
         ],
         [
             'picture' => [
