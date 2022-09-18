@@ -12,6 +12,7 @@ use App\View\Components\HeroSection;
 use App\View\Components\IndustryOverview;
 use App\View\Components\LetsUsCenteredSectionComponent;
 use App\View\Components\LetsUsSectionComponent;
+use App\View\Components\LetsUsWithImage;
 use App\View\Components\OurPlatform;
 use App\View\Components\Partners;
 use App\View\Components\PortfolioItemComponent;
@@ -100,5 +101,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('blog-section', BlogSection::class);
         Blade::component('hero-section', HeroSection::class);
         Blade::component('qna-section', QNASection::class);
+        Blade::component('lets-us-with-image', LetsUsWithImage::class);
     }
 }
