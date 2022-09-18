@@ -19,7 +19,7 @@
 		</x-slot>
 	</x-hero-section>
 	<x-recruting-benefits></x-recruting-benefits>
-	@include('sections.recruting.skills')
+	<x-recruting-skills></x-recruting-skills>	
 	@include('sections.recruting.vacancies')
 	@include('sections.recruting.values')
 	@include('sections.recruting.steps')

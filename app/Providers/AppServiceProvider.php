@@ -40,6 +40,7 @@ use App\View\Components\ScalabilitySection;
 use App\View\Components\ProducerSection;
 use App\View\Components\BlogSection;
 use App\View\Components\RecrutingBenefits;
+use App\View\Components\RecrutingSkills;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -99,5 +100,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('hero-section', HeroSection::class);
         Blade::component('qna-section', QNASection::class);
         Blade::component('recruting-benefits', RecrutingBenefits::class);
+        Blade::component('recruting-skills', RecrutingSkills::class);
     }
 }
