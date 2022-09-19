@@ -39,6 +39,7 @@ use App\View\Components\GamesSection;
 use App\View\Components\ScalabilitySection;
 use App\View\Components\ProducerSection;
 use App\View\Components\BlogSection;
+use App\View\Components\IndustryBenefitsSection;
 use App\View\Components\RecrutingBenefits;
 use App\View\Components\RecrutingContact;
 use App\View\Components\RecrutingContacts;
@@ -113,5 +114,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('recruting-gallery', RecrutingGallery::class);
         Blade::component('recruting-contact', RecrutingContact::class);
         Blade::component('recruting-contacts', RecrutingContacts::class);
+        Blade::component('industry-benefits-section', IndustryBenefitsSection::class);
     }
 }
