@@ -2,6 +2,7 @@
 
 @section('critical_styles')
 {{--	@inlineCss(css/industries.dating-app-development.css)--}}
+@inlineCss(css/industries/dating-app-development.css)
 @endsection
 @section('content')
     <x-title-section>
