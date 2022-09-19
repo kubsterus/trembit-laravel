@@ -19,7 +19,7 @@
             </x-slot>
         </x-hero-section>
         <x-industry-benefits-section></x-industry-benefits-section>
-        @include('sections.industries.entertainment.peculiarities')
+        <x-peculiarities></x-peculiarities>
         @include('sections.industries.entertainment.cards')
         @include('sections.industries.entertainment.text-img')
         @include('sections.industries.entertainment.cases')

@@ -37,7 +37,7 @@
                 'alt' => 'Web Development',
                 'srcset' => [
                     [
-                        'link' => asset('../img/benefits/icons/02.png'),
+                        'link' => asset('../img/benefits/icons/02.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -61,7 +61,7 @@
                 'alt' => 'Web Development Kit',
                 'srcset' => [
                     [
-                        'link' => asset('../img/benefits/icons/03.png'),
+                        'link' => asset('../img/benefits/icons/03.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -77,7 +77,7 @@
                 'alt' => 'QA',
                 'srcset' => [
                     [
-                        'link' => asset('../img/benefits/icons/04.png'),
+                        'link' => asset('../img/benefits/icons/04.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -93,7 +93,7 @@
                 'alt' => 'Mobile Development',
                 'srcset' => [
                     [
-                        'link' => asset('../img/benefits/icons/05.png'),
+                        'link' => asset('../img/benefits/icons/05.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -109,7 +109,7 @@
                 'alt' => 'UI/UX',
                 'srcset' => [
                     [
-                        'link' => asset('../img/benefits/icons/06.png'),
+                        'link' => asset('../img/benefits/icons/06.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
