@@ -20,7 +20,7 @@
         </x-hero-section>
         <x-industry-benefits-section></x-industry-benefits-section>
         <x-peculiarities></x-peculiarities>
-        @include('sections.industries.entertainment.cards')
+        <x-cards></x-cards>
         @include('sections.industries.entertainment.text-img')
         @include('sections.industries.entertainment.cases')
         <x-feedback></x-feedback>
