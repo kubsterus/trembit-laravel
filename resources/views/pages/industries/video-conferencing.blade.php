@@ -2,6 +2,7 @@
 
 @section('critical_styles')
 	{{-- @inlineCss(css/industries.video-conferencing.css) --}}
+    @inlineCss(css/industries/video-chat-app-development.css)
 @endsection
 @section('content')
     <x-hero-section title="White-label video conferencing and webinar platform" :image="asset('img/hero/03.webp')"

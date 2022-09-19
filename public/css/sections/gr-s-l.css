@@ -16,7 +16,6 @@
 }
 .block-6c { flex: 0 0 60%; }
 .block-4c { flex: 0 0 40%; }
-.block-4c{ flex: 0 0 100%; }
 @media (max-width: 1400px) {
     .block-6c > p { font: normal normal bold 14px /20px Lato !important; }
 }

@@ -1,0 +1,38 @@
+#titleSection {
+    background: linear-gradient( rgba(255, 220, 155, 1) 47%, rgba(247, 142, 26, 1) 116%) no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+title h1, #title span {
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+    font: normal normal bold 72px/85px Lato;
+    margin-block-start: 0em;
+}
+#title {
+    position: relative;
+    text-align: left;
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#titleWrapper {
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#title h1, #title span {
+    color: #fff;
+    text-align: left !important;
+    text-transform: uppercase !important;
+    position: relative;
+    font: normal normal bold 72px/85px Lato;
+    margin-block-start: 0em;
+}

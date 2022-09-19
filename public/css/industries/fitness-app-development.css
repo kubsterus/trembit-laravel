@@ -749,7 +749,7 @@ h2.title {
 
   .dating-app h2,
   .gr-s-l h2 {
-    font: normal normal bold 36px/50px Lato;
+    font: normal normal bold 36px/50px Lato !important;
   }
 
   .sec-a-3-b h2 {
@@ -922,7 +922,7 @@ h2.title {
 
 @media (min-width: 1024px) and (max-width: 1500px) {
   .gr-s-l h2 {
-    font: normal normal bold 48px/56px Lato;
+    font: normal normal bold 48px/56px Lato !important;
     letter-spacing: 0px;
     color: #181818;
     text-align: left;
