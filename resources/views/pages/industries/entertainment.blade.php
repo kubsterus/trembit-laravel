@@ -22,7 +22,7 @@
         <x-peculiarities></x-peculiarities>
         <x-cards></x-cards>
         <x-text-img></x-text-img>
-        @include('sections.industries.entertainment.cases')
+        <x-cases-slider></x-cases-slider>
         <x-feedback></x-feedback>
         <x-qna-section :items="[
             [

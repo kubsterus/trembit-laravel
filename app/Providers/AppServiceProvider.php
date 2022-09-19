@@ -40,6 +40,7 @@ use App\View\Components\ScalabilitySection;
 use App\View\Components\ProducerSection;
 use App\View\Components\BlogSection;
 use App\View\Components\Cards;
+use App\View\Components\CasesSlider;
 use App\View\Components\IndustryBenefitsSection;
 use App\View\Components\Peculiarities;
 use App\View\Components\RecrutingBenefits;
@@ -121,5 +122,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('peculiarities', Peculiarities::class);
         Blade::component('cards', Cards::class);
         Blade::component('text-img', TextImg::class);
+        Blade::component('cases-slider', CasesSlider::class);
     }
 }
