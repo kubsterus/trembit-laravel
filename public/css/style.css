@@ -1582,6 +1582,9 @@ h1, h2 {
 	}
 
 	@media (max-width: 970px) {
+		.form-box-2 form input.text, .form-box-2 form textarea {
+			margin-left: 0 !important;
+		}
 		#feedback .flex-block .h4 {
 			padding-left: 0%;
 		}
@@ -2460,3 +2463,8 @@ h1, h2 {
 	.submit-error.active {
 		display: block;
 	}
+	.riema.mob button,
+	.niema.mob button {
+		display: none !important;
+	}
+	
