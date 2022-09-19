@@ -68,6 +68,6 @@
                             The process of implementing live streaming is quite laborious and requires technical knowledge and skills. Therefore, the qualified specialists from Trembit, which is a leading live streaming app development company, will be glad to assist you with this.'
 		],
 	]"></x-faq-section>
-	<x-lets-us-section></x-lets-us-section>
+	<x-lets-us-with-image></x-lets-us-with-image>
 
 @endsection

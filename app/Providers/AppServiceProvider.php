@@ -12,6 +12,7 @@ use App\View\Components\HeroSection;
 use App\View\Components\IndustryOverview;
 use App\View\Components\LetsUsCenteredSectionComponent;
 use App\View\Components\LetsUsSectionComponent;
+use App\View\Components\LetsUsWithImage;
 use App\View\Components\OurPlatform;
 use App\View\Components\Partners;
 use App\View\Components\PortfolioItemComponent;
@@ -123,5 +124,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('cards', Cards::class);
         Blade::component('text-img', TextImg::class);
         Blade::component('cases-slider', CasesSlider::class);
+        Blade::component('lets-us-with-image', LetsUsWithImage::class);
     }
 }

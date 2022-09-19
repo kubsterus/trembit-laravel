@@ -12,7 +12,7 @@
             <picture><source srcset="{{asset('view/images/services/Web_development/222lINEdESKTOP.webp')}}" type="image/webp"><img class="img-web2" src="{{asset('view/images/services/Web_development/222lINEdESKTOP.webp')}}" alt="line iPhone"></source></picture>
         </x-slot>
     </x-title-section>
-    <x-services-section title="Custom web application<br> development services" :items="
+    <x-services-section is_slider="true" title="Custom web application<br> development services" :items="
         [
             [
                 'title' => 'Front-end development',
