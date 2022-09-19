@@ -1,7 +1,7 @@
 @extends('skeleton')
 
 @section('critical_styles')
-	@inlineCss(css/industries.video-conferencing.css)
+	{{-- @inlineCss(css/industries.video-conferencing.css) --}}
 @endsection
 @section('content')
     <x-hero-section title="White-label video conferencing and webinar platform" :image="asset('img/hero/03.webp')"
@@ -10,7 +10,11 @@
             'href' => '/contacts.html',
             'text' => 'Get in touch',
         ]"
-    ></x-hero-section>
+    >
+        <x-slot name="content">
+            <p class="hero__desc">A white-label video conferencing app is an option for those who need a quality online event solution focusing on their brand and reputation. By purchasing ready-made software from a white label provider, you get rid of the need to wait for the completion of durable and costly development.</p><a class="btn hero__btn" href="/contacts.html">Get in touch</a>
+        </x-slot>
+    </x-hero-section>
 	@include('sections.industries.video-conferencing.benefits')
 	@include('sections.industries.video-conferencing.solutions')
 	@include('sections.industries.video-conferencing.peculiarities')

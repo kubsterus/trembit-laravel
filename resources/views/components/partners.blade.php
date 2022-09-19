@@ -3,7 +3,7 @@
     'items' => [
         [
             'picture' => [
-                'src' => 'view/images/twilio.svg',
+                'src' => asset('view/images/twilio.svg'),
                 'alt' => 'Twilio',
                 'srcset' => [],
             ],
@@ -11,11 +11,11 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/PARTNERS.png',
+                'src' => asset('view/images/PARTNERS.png'),
                 'alt' => 'social media',
                 'srcset' => [
                     [
-                        'link' => 'view/images/PARTNERS.webp',
+                        'link' => asset('view/images/PARTNERS.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -24,11 +24,11 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/logo_header_white-01.png',
+                'src' => asset('view/images/logo_header_white-01.png'),
                 'alt' => 'Eyeson',
                 'srcset' => [
                     [
-                        'link' => 'view/images/logo_header_white-01.webp',
+                        'link' => asset('view/images/logo_header_white-01.webp'),
                         'type' => 'image/webp',
                     ],
                 ],
@@ -37,11 +37,11 @@
         ],
         [
             'picture' => [
-                'src' => 'view/images/eyesonteam-ar21.png',
+                'src' => asset('view/images/eyesonteam-ar21.png'),
                 'alt' => 'Eyeson',
                 'srcset' => [
                     [
-                        'link' => 'view/images/eyesonteam-ar21.webp',
+                        'link' => asset('view/images/eyesonteam-ar21.webp'),
                         'type' => 'image/webp',
                     ],
                 ],

@@ -40,9 +40,19 @@ use App\View\Components\GamesSection;
 use App\View\Components\ScalabilitySection;
 use App\View\Components\ProducerSection;
 use App\View\Components\BlogSection;
-
-
-
+use App\View\Components\Cards;
+use App\View\Components\CasesSlider;
+use App\View\Components\IndustryBenefitsSection;
+use App\View\Components\Peculiarities;
+use App\View\Components\RecrutingBenefits;
+use App\View\Components\RecrutingContact;
+use App\View\Components\RecrutingContacts;
+use App\View\Components\RecrutingGallery;
+use App\View\Components\RecrutingSkills;
+use App\View\Components\RecrutingSteps;
+use App\View\Components\RecrutingVacancies;
+use App\View\Components\RecrutingValues;
+use App\View\Components\TextImg;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -101,6 +111,19 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('blog-section', BlogSection::class);
         Blade::component('hero-section', HeroSection::class);
         Blade::component('qna-section', QNASection::class);
+        Blade::component('recruting-benefits', RecrutingBenefits::class);
+        Blade::component('recruting-skills', RecrutingSkills::class);
+        Blade::component('recruting-vacancies', RecrutingVacancies::class);
+        Blade::component('recruting-values', RecrutingValues::class);
+        Blade::component('recruting-steps', RecrutingSteps::class);
+        Blade::component('recruting-gallery', RecrutingGallery::class);
+        Blade::component('recruting-contact', RecrutingContact::class);
+        Blade::component('recruting-contacts', RecrutingContacts::class);
+        Blade::component('industry-benefits-section', IndustryBenefitsSection::class);
+        Blade::component('peculiarities', Peculiarities::class);
+        Blade::component('cards', Cards::class);
+        Blade::component('text-img', TextImg::class);
+        Blade::component('cases-slider', CasesSlider::class);
         Blade::component('lets-us-with-image', LetsUsWithImage::class);
     }
 }
