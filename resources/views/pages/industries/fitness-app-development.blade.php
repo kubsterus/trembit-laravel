@@ -36,7 +36,7 @@
                 ],
                 [
                     'title' => 'Fitness Activity Tracking Apps',
-                    'text' => 'Fitness tracking apps get data from sensors built into smartphones or wearable trackers. Fitness app developers adopt the latest technology to track progress as accurately as possible by monitoring the intensity of the selected activity and the body's response to the workout. Daily reports include: step count, distance traveled, running speed and pace, sleep hours, heart rate, calories burned, and more. Fitness tracking apps developed by our fitness app development company are already used by many fitness enthusiasts and professional athletes.',
+                    'text' => 'Fitness tracking apps get data from sensors built into smartphones or wearable trackers. Fitness app developers adopt the latest technology to track progress as accurately as possible by monitoring the intensity of the selected activity and the body\'s response to the workout. Daily reports include: step count, distance traveled, running speed and pace, sleep hours, heart rate, calories burned, and more. Fitness tracking apps developed by our fitness app development company are already used by many fitness enthusiasts and professional athletes.',
                     'icon' => asset('view/images/industries/medical-app_2.webp'),
                 ],
                 [

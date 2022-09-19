@@ -26,12 +26,12 @@
                 ],
                 [
                     'title' => 'Video Calling App Development from Scratch',
-                    'text' => 'Each phase of app development: business analysis, UX/UI, prototyping, front-end and back-end, as well as Quality Assurance (QA), requires a high level of detailing and experience. Our experts implement and deploy the latest solutions in the world of video-enabled and video-based applications. Whether it's video-on-demand, OTT, or video conferencing, we make sure your A/V call is of the highest quality and runs smoothly.',
+                    'text' => 'Each phase of app development: business analysis, UX/UI, prototyping, front-end and back-end, as well as Quality Assurance (QA), requires a high level of detailing and experience. Our experts implement and deploy the latest solutions in the world of video-enabled and video-based applications. Whether it\'s video-on-demand, OTT, or video conferencing, we make sure your A/V call is of the highest quality and runs smoothly.',
                     'icon' => asset('view/images/industries/video-call_1.webp'),
                 ],
                 [
                     'title' => 'Modernizing your Video and Audio Apps',
-                    'text' => 'For those who already have video conferencing software that is outdated and can't keep up with current trends and new technologies, upgrading is a great solution. Our developers will evaluate your video conferencing software and design a new solution for legacy systems. The upgraded app will not be inferior to the new ones and will save time and money that could be spent on developing the application from scratch.',
+                    'text' => 'For those who already have video conferencing software that is outdated and can\'t keep up with current trends and new technologies, upgrading is a great solution. Our developers will evaluate your video conferencing software and design a new solution for legacy systems. The upgraded app will not be inferior to the new ones and will save time and money that could be spent on developing the application from scratch.',
                     'icon' => asset('view/images/industries/social-media_2.webp'),
                 ],
                 [
@@ -87,23 +87,23 @@
     ]"></x-services-we-provide>
     <x-why-block title="Why Develop A Video Conferencing App With Our Developers?"
                  :items="[
-            [
-                'Competence'
-                'Our team of qualified video experts has experience in the technical aspects of creating video-based solutions and products, as well as deep practical knowledge in the field of streaming, transcoding, and infrastructure development.',
-            ],
-            [
-                'Experience'
-                'For more than a decade, our video chat app development company has been actively helping enterprises with the implementation of their ideas in the development of video and audio software.',
-            ],
-            [
-                'Comprehensive Services'
-                'From R&D to post-launch service, our video conferencing app development company accompanies you all the way through the video software creation.',
-            ],
-            [
-                'Implementation of New Technologies'
-                'Our experts always keep up with high-tech solutions and the latest trends in the video industry. Therefore, you do not need to worry that your video software will quickly lose its relevance.',
-            ],
-        ]"
+                        [
+                            'Competence',
+                            'Our team of qualified video experts has experience in the technical aspects of creating video-based solutions and products, as well as deep practical knowledge in the field of streaming, transcoding, and infrastructure development.',
+                        ],
+                        [
+                            'Experience',
+                            'For more than a decade, our video chat app development company has been actively helping enterprises with the implementation of their ideas in the development of video and audio software.',
+                        ],
+                        [
+                            'Comprehensive Services',
+                            'From R&D to post-launch service, our video conferencing app development company accompanies you all the way through the video software creation.',
+                        ],
+                        [
+                            'Implementation of New Technologies',
+                            'Our experts always keep up with high-tech solutions and the latest trends in the video industry. Therefore, you do not need to worry that your video software will quickly lose its relevance.',
+                        ],
+                    ]"
                  :image="asset('view/images/industries/why_develop.svg')"
     ></x-why-block>
     <x-slider-section></x-slider-section>

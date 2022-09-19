@@ -68,7 +68,7 @@
         [
             'picture' => asset('view/images/industries/notification.webp'),
             'title' => 'Push Notifications',
-            'content' => 'They help increase the engagement rate (ER) of dating app users. It can be new message notifications or just a friendly reminder of new users who are in the same area or who have common interests. As a push provider, we recommend Apple's Push Notification Service for iOS and Google Cloud Messaging (GCM) for the Android app.'
+            'content' => 'They help increase the engagement rate (ER) of dating app users. It can be new message notifications or just a friendly reminder of new users who are in the same area or who have common interests. As a push provider, we recommend Apple\'s Push Notification Service for iOS and Google Cloud Messaging (GCM) for the Android app.'
         ],
         [
             'picture' => asset('view/images/industries/filtering.webp'),
@@ -78,7 +78,7 @@
         [
             'picture' => asset('view/images/industries/web-design_1.webp'),
             'title' => 'Uploading multiple images',
-            'content' => 'Such an online dating solution will allow users to post multiple images at once on their profiles. This feature will not only help you better see the user's appearance but also increase the guarantee of the authenticity of the account.'
+            'content' => 'Such an online dating solution will allow users to post multiple images at once on their profiles. This feature will not only help you better see the user\'s appearance but also increase the guarantee of the authenticity of the account.'
         ],
     ]"></x-services-we-provide>
     <x-why-block title="Why Develop A Dating App With Our Developers?" subtitle="Why Develop A Dating App With Our Developers?"
