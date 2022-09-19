@@ -50,6 +50,7 @@ use App\View\Components\RecrutingSkills;
 use App\View\Components\RecrutingSteps;
 use App\View\Components\RecrutingVacancies;
 use App\View\Components\RecrutingValues;
+use App\View\Components\TextImg;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -119,5 +120,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('industry-benefits-section', IndustryBenefitsSection::class);
         Blade::component('peculiarities', Peculiarities::class);
         Blade::component('cards', Cards::class);
+        Blade::component('text-img', TextImg::class);
     }
 }

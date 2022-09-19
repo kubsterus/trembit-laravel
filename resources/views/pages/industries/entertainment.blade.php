@@ -21,7 +21,7 @@
         <x-industry-benefits-section></x-industry-benefits-section>
         <x-peculiarities></x-peculiarities>
         <x-cards></x-cards>
-        @include('sections.industries.entertainment.text-img')
+        <x-text-img></x-text-img>
         @include('sections.industries.entertainment.cases')
         <x-feedback></x-feedback>
         <x-qna-section :items="[
