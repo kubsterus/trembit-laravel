@@ -1,79 +1,6 @@
 <script src="{{asset('js/jquery-3.3.1.min.js?5363')}}"></script>
 <script src="{{asset('js/siema.min.js')}}"></script>
 <script>
-    const riemas = document.querySelectorAll('.riema');
-    Siema.prototype.addArrows = function () {
-
-        // make buttons & append them inside Siema's container
-        this.prevArrow = document.createElement('button');
-        this.nextArrow = document.createElement('button');
-        //this.prevArrow.textContent = 'previous slide';
-        //this.nextArrow.textContent = '>';
-        this.selector.appendChild(this.prevArrow);
-        this.selector.appendChild(this.nextArrow);
-
-        // event handlers on buttons
-        this.prevArrow.addEventListener('click', () => this.prev());
-        this.nextArrow.addEventListener('click', () => this.next());
-    };
-
-    // this is fairly new way of looping through DOM Elements
-    // More about ithere: https://pawelgrzybek.com/loop-through-a-collection-of-dom-elements/
-    // For better compatibility I suggest using for loop
-
-    const windowWidth = window.innerWidth
-    let ecop2 = 1
-    if (windowWidth >= 768) {
-        ecop2 = 3
-    }
-    if (windowWidth >= 1568) {
-        ecop2 = 4
-    }
-    for (const riema of riemas) {
-        const instance = new Siema({
-            selector: riema,
-            perPage: ecop2,
-            loop: true
-        });
-
-        instance.addArrows();
-    };
-    const niemas = document.querySelectorAll('.niema');
-    Siema.prototype.addArrows = function () {
-
-        // make buttons & append them inside Siema's container
-        this.prevArrow = document.createElement('button');
-        this.nextArrow = document.createElement('button');
-        //this.prevArrow.textContent = 'previous slide';
-        //this.nextArrow.textContent = '>';
-        this.selector.appendChild(this.prevArrow);
-        this.selector.appendChild(this.nextArrow);
-
-        // event handlers on buttons
-        this.prevArrow.addEventListener('click', () => this.prev());
-        this.nextArrow.addEventListener('click', () => this.next());
-    };
-
-    // this is fairly new way of looping through DOM Elements
-    // More about ithere: https://pawelgrzybek.com/loop-through-a-collection-of-dom-elements/
-    // For better compatibility I suggest using for loop
-
-    let ecop = 1
-    if (windowWidth >= 768) {
-        ecop = 3
-    }
-	if (windowWidth >= 768) {
-		for (const niema of niemas) {
-			const instance = new Siema({
-				selector: niema,
-				perPage: ecop,
-				loop: true
-			});
-
-			instance.addArrows();
-		};
-    } else {
-    }
     var acc = document.getElementsByClassName("accordion");
     var i;
 
@@ -178,6 +105,53 @@
             $(this).next().slideDown();
         }
     });
+
+
+    const windowWidth = window.innerWidth
+    const riemas = document.querySelectorAll('.riema')
+    const niemas = document.querySelectorAll('.niema')
+    let ecop = 1
+    let ecop2 = 1
+    if (windowWidth >= 768) {
+        ecop = 3
+        ecop2 = 3
+    }
+    if (windowWidth >= 1568) {
+        ecop2 = 4
+    }
+
+    Siema.prototype.addArrows = function () {
+        this.prevArrow = document.createElement('button')
+        this.nextArrow = document.createElement('button')
+
+        this.selector.appendChild(this.prevArrow)
+        this.selector.appendChild(this.nextArrow)
+
+        this.prevArrow.addEventListener('click', () => this.prev())
+        this.nextArrow.addEventListener('click', () => this.next())
+    };
+    
+    if (windowWidth >= 768) {
+        for (const niema of niemas) {
+            const instance = new Siema({
+                selector: niema,
+                perPage: ecop,
+                loop: true
+            });
+
+            instance.addArrows();
+        };
+    }
+    
+    for (const riema of riemas) {
+        const instance = new Siema({
+            selector: riema,
+            perPage: ecop2,
+            loop: true
+        });
+
+        instance.addArrows();
+    };
 </script>
 <script>
     document.querySelector('.header-burger').addEventListener('click', function () {

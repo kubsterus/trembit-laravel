@@ -2,6 +2,7 @@
 
 @section('critical_styles')
     {{--	@inlineCss(css/industries.telemedicine-app-development.css)--}}
+    @inlineCss(css/industries/video-chat-app-development.css)
 @endsection
 @section('content')
     <x-title-section>

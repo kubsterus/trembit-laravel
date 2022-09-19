@@ -17,10 +17,6 @@ body {
   align-items: start !important;
 }
 
-#dark {
-  background-color: rgba(24, 24, 24, 0);
-}
-
 #titleWrapper #title {
   max-width: 688px;
   padding-top: 100px;

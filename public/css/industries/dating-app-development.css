@@ -17,10 +17,6 @@ body {
   align-items: flex-start !important;
 }
 
-#dark {
-  background-color: rgba(24, 24, 24, 0);
-}
-
 #titleWrapper #title {
   max-width: 574px;
   padding-top: 100px;
