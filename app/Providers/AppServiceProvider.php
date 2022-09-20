@@ -52,6 +52,7 @@ use App\View\Components\RecrutingSkills;
 use App\View\Components\RecrutingSteps;
 use App\View\Components\RecrutingVacancies;
 use App\View\Components\RecrutingValues;
+use App\View\Components\Solutions;
 use App\View\Components\TextImg;
 
 class AppServiceProvider extends ServiceProvider
@@ -125,5 +126,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('text-img', TextImg::class);
         Blade::component('cases-slider', CasesSlider::class);
         Blade::component('lets-us-with-image', LetsUsWithImage::class);
+        Blade::component('solutions', Solutions::class);
     }
 }

@@ -116,8 +116,7 @@
             ],
         ]"
     ></x-industry-benefits-section>
-	@include('sections.industries.video-conferencing.benefits')
-	@include('sections.industries.video-conferencing.solutions')
+    <x-solutions></x-solutions>
 	@include('sections.industries.video-conferencing.peculiarities')
 	@include('sections.industries.video-conferencing.technologies')
 	@include('sections.industries.video-conferencing.text-img')

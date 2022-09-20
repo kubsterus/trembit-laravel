@@ -1,8 +1,7 @@
 @extends('skeleton')
 
 @section('critical_styles')
-{{--	@inlineCss(css/industries.telemedicine-app-development.css)--}}
-@inlineCss(css/industries/telemedicine-app-development.css)
+    @inlineCss(css/industries/telemedicine-app-development.css)
 @endsection
 @section('content')
     <x-title-section>
