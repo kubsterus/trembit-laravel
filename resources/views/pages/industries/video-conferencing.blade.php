@@ -193,7 +193,9 @@
             ]
         ]"
     ></x-text-img>
-	@include('sections.industries.video-conferencing.text-img')
+    <x-cases-slider
+        text="Below you will find a summary of some of the projects we have completed. These case studies will help you understand how meticulously and passionately we approach our work and how attentive we are to the requirements of our clients." 
+    ></x-cases-slider>
 	@include('sections.industries.video-conferencing.cases')
     <x-feedback></x-feedback>
     <x-qna-section :items="[
