@@ -179,6 +179,20 @@
         ]" 
     ></x-peculiarities>
     <x-technologies></x-technologies>
+    <x-text-img
+        title="Why Our White Label Webinar Platform?" 
+        text="Our white label software for webinars fully complies with modern trends and latest technologies. By choosing our development, you receive the full ownership of a customizable, AI-based platform with the latest advanced features, high-quality media content delivery and stylish UI/UX design according to your wishes."
+        :picture="[
+            'src' => asset('../img/text-img/02.jpg'),
+            'alt' => 'Why Our White Label Webinar Platform?',
+            'srcset' => [
+                [
+                    'link' => asset('../img/text-img/02.webp'),
+                    'type' => 'image/text'
+                ]
+            ]
+        ]"
+    ></x-text-img>
 	@include('sections.industries.video-conferencing.text-img')
 	@include('sections.industries.video-conferencing.cases')
     <x-feedback></x-feedback>
