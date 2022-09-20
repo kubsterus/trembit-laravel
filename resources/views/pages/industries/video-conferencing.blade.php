@@ -2,7 +2,7 @@
 
 @section('critical_styles')
 	{{-- @inlineCss(css/industries.video-conferencing.css) --}}
-    @inlineCss(css/industries/video-chat-app-development.css)
+    @inlineCss(css/entertainment.min.css)
 @endsection
 @section('content')
     <x-hero-section title="White-label video conferencing and webinar platform" :image="asset('img/hero/03.webp')"
@@ -13,9 +13,109 @@
         ]"
     >
         <x-slot name="content">
-            <p class="hero__desc">A white-label video conferencing app is an option for those who need a quality online event solution focusing on their brand and reputation. By purchasing ready-made software from a white label provider, you get rid of the need to wait for the completion of durable and costly development.</p><a class="btn hero__btn" href="/contacts.html">Get in touch</a>
+            <p class="hero__desc">A white-label video conferencing app is an option for those who need a quality online event solution focusing on their brand and reputation. By purchasing ready-made software from a white label provider, you get rid of the need to wait for the completion of durable and costly development.</p>
         </x-slot>
     </x-hero-section>
+    <x-industry-benefits-section
+        title="Advantages Of White-Label<br>Video Conferencing<br>Platform" 
+        colsCount="3"
+        :image="[
+            'src' => asset('../img/benefits/desktops.png'),
+            'alt' => 'Saves time and money',
+            'srcset' => [
+                [
+                    'link' => asset('../img/benefits/desktops.webp'),
+                    'type' => 'image/webp'
+                ]
+            ]
+        ]"
+        :items="[
+            [
+                'image' => [
+                    'src' => asset('../img/benefits/icons/07.png'),
+                    'alt' => 'Saves time and money',
+                    'srcset' => [
+                        [
+                            'link' => asset('../img/benefits/icons/07.webp'),
+                            'type' => 'image/webp'
+                        ]
+                    ]
+                ],
+                'title' => 'Saves time and money',
+                'content' => 'A white-label software is an almost completed product where the final touch is applying your corporate designThis means you do not need to create a video conferencing platform from scratch, spending time and money on research and development, but focus on its promotion.'
+            ],
+            [
+                'image' => [
+                    'src' => asset('../img/benefits/icons/08.png'),
+                    'alt' => 'Increases your brand awareness',
+                    'srcset' => [
+                        [
+                            'link' => asset('../img/benefits/icons/08.webp'),
+                            'type' => 'image/webp'
+                        ]
+                    ]
+                ],
+                'title' => 'Increases your brand awareness',
+                'content' => 'Putting your logo and branded design on the white-label video conferencing platform will raise public awareness of your company. Using your corporate platform for online meetings will increase the importance of your company in the eyes of partners or potential clients.'
+            ],
+            [
+                'image' => [
+                    'src' => asset('../img/benefits/icons/09.png'),
+                    'alt' => 'Gives you an edge over your competitors',
+                    'srcset' => [
+                        [
+                            'link' => asset('../img/benefits/icons/09.webp'),
+                            'type' => 'image/webp'
+                        ]
+                    ]
+                ],
+                'title' => 'Gives you an edge over your competitors',
+                'content' => 'If your competitors use third-party video conferencing services, imagine how you will stand out from their background with your own software.'
+            ],
+            [
+                'image' => [
+                    'src' => asset('../img/benefits/icons/10.png'),
+                    'alt' => 'Ensures quality and safety',
+                    'srcset' => [
+                        [
+                            'link' => asset('../img/benefits/icons/10.webp'),
+                            'type' => 'image/webp'
+                        ]
+                    ]
+                ],
+                'title' => 'Ensures quality and safety',
+                'content' => 'A white-label software development equals using modern and reliable technologies that provide you with high-quality communication and the ability to share content safely.'
+            ],
+            [
+                'image' => [
+                    'src' => asset('../img/benefits/icons/11.png'),
+                    'alt' => 'Increases customer loyalty',
+                    'srcset' => [
+                        [
+                            'link' => asset('../img/benefits/icons/11.webp'),
+                            'type' => 'image/webp'
+                        ]
+                    ]
+                ],
+                'title' => 'Increases customer loyalty',
+                'content' => 'Create alignment between your products and offerings. In addition, using a white-label video conferencing platform that performs well and promotes a positive user experience means that customers will associate high-quality, user-friendly technology with your brand.'
+            ],
+            [
+                'image' => [
+                    'src' => asset('../img/benefits/icons/12.png'),
+                    'alt' => 'Integrability',
+                    'srcset' => [
+                        [
+                            'link' => asset('../img/benefits/icons/12.webp'),
+                            'type' => 'image/webp'
+                        ]
+                    ]
+                ],
+                'title' => 'Integrability',
+                'content' => 'Ready-made services can be easily adapted and implemented on existing platforms. For example, in billing or service delivery systems.'
+            ],
+        ]"
+    ></x-industry-benefits-section>
 	@include('sections.industries.video-conferencing.benefits')
 	@include('sections.industries.video-conferencing.solutions')
 	@include('sections.industries.video-conferencing.peculiarities')
