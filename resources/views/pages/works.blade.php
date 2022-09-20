@@ -1,7 +1,7 @@
 @extends('skeleton')
 
 @section('critical_styles')
-
+    @inlineCss(css/works.css)
 @endsection
 @section('content')
     <x-title-section>
