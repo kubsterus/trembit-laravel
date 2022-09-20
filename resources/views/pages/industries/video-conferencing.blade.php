@@ -178,7 +178,7 @@
             ],
         ]" 
     ></x-peculiarities>
-	@include('sections.industries.video-conferencing.technologies')
+    <x-technologies></x-technologies>
 	@include('sections.industries.video-conferencing.text-img')
 	@include('sections.industries.video-conferencing.cases')
     <x-feedback></x-feedback>
