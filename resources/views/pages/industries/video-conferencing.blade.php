@@ -117,7 +117,67 @@
         ]"
     ></x-industry-benefits-section>
     <x-solutions></x-solutions>
-	@include('sections.industries.video-conferencing.peculiarities')
+    <x-peculiarities
+        title="Our White Label Video Conferencing Software For:"
+        :items="[
+            [
+                'image' => [
+                    'src' => asset('../img/peculiarities/08.png'),
+                    'alt' => 'Telemedicine',
+                    'srcset' => [
+                        [
+                            'link' => asset('../img/peculiarities/08.webp'),
+                            'type' => 'image/webp'
+                        ]
+                    ]
+                ],
+                'title' => 'Telemedicine',
+                'content' => 'Solutions that improve the quality of healthcare by connecting patients and healthcare professionals anytime, anywhere.'
+            ],
+            [
+                'image' => [
+                    'src' => asset('../img/peculiarities/09.png'),
+                    'alt' => 'Educational Institutions',
+                    'srcset' => [
+                        [
+                            'link' => asset('../img/peculiarities/09.webp'),
+                            'type' => 'image/webp'
+                        ]
+                    ]
+                ],
+                'title' => 'Educational Institutions',
+                'content' => 'Solutions that improve the quality of education by enabling lectures, webinars, consultations, and even online learning.'
+            ],
+            [
+                'image' => [
+                    'src' => asset('../img/peculiarities/10.png'),
+                    'alt' => 'Business Institution',
+                    'srcset' => [
+                        [
+                            'link' => asset('../img/peculiarities/10.webp'),
+                            'type' => 'image/webp'
+                        ]
+                    ]
+                ],
+                'title' => 'Business Institution',
+                'content' => 'Solutions that will improve the productivity, management of your employees, and communication.'
+            ],
+            [
+                'image' => [
+                    'src' => asset('../img/peculiarities/11.png'),
+                    'alt' => 'Government Agencies',
+                    'srcset' => [
+                        [
+                            'link' => asset('../img/peculiarities/11.webp'),
+                            'type' => 'image/webp'
+                        ]
+                    ]
+                ],
+                'title' => 'Government Agencies',
+                'content' => 'Solutions that guarantee high-quality and, most importantly, secure communication will allow you to conduct online meetings and instantly share images from IP cameras.'
+            ],
+        ]" 
+    ></x-peculiarities>
 	@include('sections.industries.video-conferencing.technologies')
 	@include('sections.industries.video-conferencing.text-img')
 	@include('sections.industries.video-conferencing.cases')
