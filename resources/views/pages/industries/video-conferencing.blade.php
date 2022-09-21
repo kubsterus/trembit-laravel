@@ -1,6 +1,7 @@
 @extends('skeleton')
 
 @section('critical_styles')
+
 	{{-- @inlineCss(css/industries.video-conferencing.css) --}}
     @inlineCss(css/entertainment.min.css)
 @endsection
@@ -213,5 +214,4 @@
         ],
     ]"></x-qna-section>
 	<x-lets-us-section></x-lets-us-section>
-
 @endsection

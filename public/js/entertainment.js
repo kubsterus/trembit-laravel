@@ -45,27 +45,4 @@ $(document).ready(function() {
         dots: true,
         centerPadding: '30px'
     });
-    $(".drop-x").click(function () {
-        $(".drop-m").toggleClass("active");
-    });
-    $(".drop-r").click(function () {
-        $(".drop-els1").toggleClass("active");
-    });
-    $(".drop-r2").click(function () {
-        $(".drop-els2").toggleClass("active");
-    });
-    $(".drop-x2").click(function () {
-        $(".drop-m2").toggleClass("active");
-    });
-    $(".drop-r3").click(function () {
-        $(".drop-els3").toggleClass("active");
-    });
-    $(".drop-x3").click(function () {
-        $(".drop-m3").toggleClass("active");
-    });
-    $(".header-burger").click(function () {
-        $(".header-burger").toggleClass("active");
-        $(".body-wrp").toggleClass("no_overflow");
-        $("#nav").toggleClass("show");
-    })
 });

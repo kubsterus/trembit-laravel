@@ -1,5 +1,9 @@
 /* Slider */
 
+body {
+  background-color: #fff !important;
+}
+
 .slick-slider {
   position: relative;
   display: block;
@@ -257,6 +261,12 @@ p a {
 
 .main section.text-img,
 .main section.technologies {
+  padding: 0;
+}
+
+.technologies,
+.text-img {
+  min-height: unset;
   padding: 0;
 }
 
@@ -625,6 +635,7 @@ p a {
 }
 
 .cases {
+  min-height: unset;
   color: #181818;
   padding: 200px 0 180px;
 }
@@ -645,7 +656,20 @@ p a {
   font-weight: 700;
   font-size: 36px;
   line-height: 48px;
+  text-align: left;
   text-transform: uppercase;
+}
+
+#feedback p {
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  line-height: 24px;
+  color: #3c3c3c;
+  margin: 1em 0;
+}
+#feedback img {
+  min-width: 150px;
 }
 
 .cases__desc {
@@ -1292,11 +1316,11 @@ p a {
   border-color: #F6BF5F;
 }
 
-.page-video-conferencing .hero__title {
+.video-conferencing-page .hero__title {
   color: #56E5F9;
 }
 
-.page-video-conferencing .hero__btn:not(:hover) {
+.video-conferencing-page .hero__btn:not(:hover) {
   background-color: #56E5F9;
   border-color: #56E5F9;
 }
@@ -1947,11 +1971,11 @@ p a {
 }
 
 @media screen and (max-width: 767px) {
-  .main section {
+  section {
     padding: 80px 0;
   }
 
-  .main section.hero {
+  section.hero {
     padding: 0;
   }
 
