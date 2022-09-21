@@ -1,7 +1,7 @@
 @extends('skeleton')
 
 @section('critical_styles')
-    @inlineCss(css/entertainment.min.css)
+    @inlineCss(css/entertainment.css)
 @endsection
 @section('content')
     <div class="page-entertainment">
@@ -42,5 +42,7 @@
             ],
         ]"></x-qna-section>
         <x-lets-us-section></x-lets-us-section>
+        <script src="{{asset('js/slick.min.js')}}" defer></script>
+        <script src="{{asset('js/entertainment.js')}}" defer></script>
     </div>
 @endsection

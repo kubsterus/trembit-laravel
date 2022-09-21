@@ -1,33 +1,38 @@
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0
+}
+
 @font-face {
   font-family: "Avenir Next Medium";
   font-display: swap;
-  src: local("Avenir Next Medium"), url("../view/fonts/AvenirNext-Medium.ttf");
+  src: local("Avenir Next Medium"), url(../view/fonts/AvenirNext-Medium.ttf)
 }
 
 @font-face {
   font-family: "Avenir Next Bold";
   font-display: swap;
-  src: local("Avenir Next Bold"), url("../view/fonts/AvenirNext-Bold.ttf");
+  src: local("Avenir Next Bold"), url(../view/fonts/AvenirNext-Bold.ttf)
 }
 
 @font-face {
   font-family: "Avenir Next Regular";
   font-display: swap;
-  src: local("Avenir Next Regular"), url("../view/fonts/AvenirNext-Regular.ttf");
+  src: local("Avenir Next Regular"), url(../view/fonts/AvenirNext-Regular.ttf)
 }
 
 body {
-  background-color: black;
+  background-color: #000
 }
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 
-h1,
-h2 {
-  font-family: "Avenir Next Bold";
+h1, h2 {
+  font-family: "Avenir Next Bold"
 }
 
 .wrapper {
@@ -46,25 +51,25 @@ h2 {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: center
 }
 
 .headerWrapper {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
-  flex-direction: row;
+  flex-direction: row
 }
 
 .logo {
   margin-right: auto;
-  z-index: 999;
+  z-index: 999
 }
 
 ul {
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
-  -webkit-padding-start: 40px;
+  -webkit-padding-start: 40px
 }
 
 .content {
@@ -75,38 +80,36 @@ ul {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  min-height: calc(100vh - 96px);
+  min-height: calc(100vh - 96px)
 }
 
 section {
   width: 100%;
   min-height: calc(100vh - 45px);
   padding-top: 45px;
-  padding-bottom: 45px;
+  padding-bottom: 45px
 }
 
 #servicesItemSection {
-  background-color: white;
+  background-color: #fff
 }
 
-#servicesItemSection h1,
-#servicesItemSection h2 {
-  font-size: 64px;
+#servicesItemSection h1, #servicesItemSection h2 {
+  font-size: 64px !important;
   color: #000;
   text-align: center;
-  line-height: 1.2em;
-  position: relative;
+  line-height: 1.2em !important;
+  position: relative
 }
 
-#servicesItemSection h1:after,
-#servicesItemSection h2:after {
+#servicesItemSection h1:after, #servicesItemSection h2:after {
   content: "";
   position: absolute;
   top: 110px;
   left: 19.3%;
   background-color: #f6e145;
   width: 61.5%;
-  height: 1px;
+  height: 1px
 }
 
 #services {
@@ -126,7 +129,7 @@ section {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0 auto
 }
 
 .service {
@@ -137,23 +140,23 @@ section {
   -ms-flex-align: center;
   align-items: center;
   padding: 50px 20px;
-  margin: 0 auto;
+  margin: 0 auto
 }
 
 .serviceReverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse
 }
 
 .serviceImg {
-  margin: 0 20px;
+  margin: 0 20px
 }
 
 .serviceDescribe {
   max-width: calc(70% - 400px);
-  color: #2F2F2F;
+  color: #2f2f2f;
   line-height: 1.6em !important;
   font-size: 24px !important;
   text-indent: 22px !important;
@@ -161,28 +164,28 @@ section {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  text-align: justify;
+  text-align: justify
 }
 
 .serviceDescribe p {
   line-height: 1.6em !important;
   font-size: 24px !important;
   text-indent: 22px !important;
-  font-family: "Avenir Next Regular" !important;
+  font-family: "Avenir Next Regular" !important
 }
 
 #honor {
   position: relative;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  margin: 0 20px;
+  margin: 0 20px
 }
 
 #honor:before {
   content: "Our honors: ";
   position: absolute;
   bottom: 24px;
-  right: 62px;
+  right: 62px
 }
 
 .footerSection {
@@ -198,32 +201,32 @@ section {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: center
 }
 
 .footerSection ul {
   list-style: none;
-  line-height: 24px;
+  line-height: 24px
 }
 
 .footerSection p {
   font-family: "Avenir Next Medium";
-  font-size: 16px;
+  font-size: 16px
 }
 
 .border {
-  border: 1px solid white;
+  border: 1px solid #fff;
   padding: 10px 20px;
-  margin-top: 10px;
+  margin-top: 10px
 }
 
 #connect amp-img {
   margin-top: 3px;
-  margin-right: 5px;
+  margin-right: 5px
 }
 
 #connect a {
-  text-transform: lowercase;
+  text-transform: lowercase
 }
 
 #social {
@@ -232,40 +235,39 @@ section {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: center
 }
 
 .toggle {
-  display: none;
+  display: none
 }
 
 #footerCopy {
   font-size: 12px;
-  margin-top: 10px;
+  margin-top: 10px
 }
 
-@media (max-width: 1025px) {
-  .serviceDescribe,
-  .serviceDescribe p {
-    font-size: 18px !important;
+@media (max-width:1025px) {
+  .serviceDescribe, .serviceDescribe p {
+    font-size: 18px !important
   }
 
   .serviceDescribe {
     max-width: calc(90% - 400px);
-    color: #2F2F2F;
+    color: #2f2f2f;
     line-height: 1.3em !important;
     font-size: 12px !important;
-    text-indent: 16px !important;
+    text-indent: 16px !important
   }
 
   .serviceDescribe p {
     line-height: 1.3em !important;
     font-size: 12px !important;
-    text-indent: 16px !important;
+    text-indent: 16px !important
   }
 }
 
-@media (max-width: 970px) {
+@media (max-width:970px) {
   .toggle {
     margin-right: 3%;
     display: block;
@@ -273,68 +275,68 @@ section {
     width: 38px;
     height: 30px;
     cursor: pointer;
-    background: transparent;
+    background: 0 0;
     border: none;
     z-index: 999;
-    transition: transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+    transition: transform .4s cubic-bezier(.4, .01, .165, .99), -webkit-transform .4s cubic-bezier(.4, .01, .165, .99)
   }
 
-  .toggle > span {
+  .toggle>span {
     display: block;
     width: 24px;
     height: 2px;
-    margin: 6px 0;
+    margin: 6px 0
   }
 
-  #dark .toggle > span {
-    background-color: #fff;
+  #dark .toggle>span {
+    background-color: #fff
   }
 
   ul {
     margin: 0 0 0 40px;
-    padding: 0;
+    padding: 0
   }
 
-  .toggle > span:nth-child(1) {
-    transition: transform 0.2s 0.2s, -webkit-transform 0.2s 0.2s;
+  .toggle>span:nth-child(1) {
+    transition: transform .2s .2s, -webkit-transform .2s .2s;
     -webkit-transform: rotate(0) translateY(0) translateX(0);
     -ms-transform: rotate(0) translateY(0) translateX(0);
-    transform: rotate(0) translateY(0) translateX(0);
+    transform: rotate(0) translateY(0) translateX(0)
   }
 
-  .toggle > span:nth-child(2).menu2 {
+  .toggle>span:nth-child(2).menu2 {
     opacity: 1;
-    -webkit-transition: opacity 0.8s;
-    -o-transition: opacity 0.8s;
-    transition: opacity 0.8s;
+    -webkit-transition: opacity .8s;
+    -o-transition: opacity .8s;
+    transition: opacity .8s
   }
 
-  .toggle > span:nth-child(3) {
+  .toggle>span:nth-child(3) {
     -webkit-transform: rotate(0) translateY(0) translateX(0);
     -ms-transform: rotate(0) translateY(0) translateX(0);
     transform: rotate(0) translateY(0) translateX(0);
-    transition: transform 0.2s 0.2s, -webkit-transform 0.2s 0.2s;
+    transition: transform .2s .2s, -webkit-transform .2s .2s
   }
 
-  .toggle > span.cross1 {
-    transition: transform 0.2s 0.2s, -webkit-transform 0.2s 0.2s;
+  .toggle>span.cross1 {
+    transition: transform .2s .2s, -webkit-transform .2s .2s;
     -webkit-transform: rotate(315deg) translateY(4px) translateX(-5px);
     -ms-transform: rotate(315deg) translateY(4px) translateX(-5px);
-    transform: rotate(315deg) translateY(4px) translateX(-5px);
+    transform: rotate(315deg) translateY(4px) translateX(-5px)
   }
 
-  .toggle > span:nth-child(2).cross2 {
+  .toggle>span:nth-child(2).cross2 {
     opacity: 0;
-    -webkit-transition: opacity 0.4s;
-    -o-transition: opacity 0.4s;
-    transition: opacity 0.4s;
+    -webkit-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s
   }
 
-  .toggle > span.cross3 {
+  .toggle>span.cross3 {
     -webkit-transform: rotate(225deg) translateY(7px) translateX(6px);
     -ms-transform: rotate(225deg) translateY(7px) translateX(6px);
     transform: rotate(225deg) translateY(7px) translateX(6px);
-    transition: transform 0.2s 0.2s, -webkit-transform 0.2s 0.2s;
+    transition: transform .2s .2s, -webkit-transform .2s .2s
   }
 
   #nav {
@@ -358,7 +360,7 @@ section {
     padding-top: 100px;
     margin-left: 0;
     z-index: -1;
-    overflow-y: scroll;
+    overflow-y: scroll
   }
 
   #dark .headerWrapper .hide {
@@ -366,17 +368,17 @@ section {
     opacity: 0;
     height: 0;
     overflow: hidden;
-    -webkit-transition: opacity 0.2s ease-in, height 0.1s;
-    -o-transition: opacity 0.2s ease-in, height 0.1s;
-    transition: opacity 0.2s ease-in, height 0.1s;
+    -webkit-transition: opacity .2s ease-in, height .1s;
+    -o-transition: opacity .2s ease-in, height .1s;
+    transition: opacity .2s ease-in, height .1s
   }
 
   #dark .headerWrapper .show {
     opacity: 1;
     height: 100vh;
-    -webkit-transition: opacity 0.2s ease-in, height 0.1s;
-    -o-transition: opacity 0.2s ease-in, height 0.1s;
-    transition: opacity 0.2s ease-in, height 0.1s;
+    -webkit-transition: opacity .2s ease-in, height .1s;
+    -o-transition: opacity .2s ease-in, height .1s;
+    transition: opacity .2s ease-in, height .1s
   }
 
   #nav li {
@@ -390,189 +392,184 @@ section {
     -webkit-transform: scale(1.1) translateY(-24px);
     -ms-transform: scale(1.1) translateY(-24px);
     transform: scale(1.1) translateY(-24px);
-    -webkit-transition: opacity 0.5s, height 0.5s, -webkit-transform 0.8s ease-out;
-    transition: opacity 0.5s, height 0.5s, -webkit-transform 0.8s ease-out;
-    -o-transition: opacity 0.5s, transform 0.8s ease-out, height 0.5s;
-    transition: opacity 0.5s, transform 0.8s ease-out, height 0.5s;
-    transition: opacity 0.5s, transform 0.8s ease-out, height 0.5s, -webkit-transform 0.8s ease-out;
+    -webkit-transition: opacity .5s, height .5s, -webkit-transform .8s ease-out;
+    transition: opacity .5s, height .5s, -webkit-transform .8s ease-out;
+    -o-transition: opacity .5s, transform .8s ease-out, height .5s;
+    transition: opacity .5s, transform .8s ease-out, height .5s;
+    transition: opacity .5s, transform .8s ease-out, height .5s, -webkit-transform .8s ease-out
   }
 
   #nav li a {
     z-index: -111;
     display: block;
-    font-size: 20px;
+    font-size: 20px
   }
 
   #nav li a:hover:before {
-    opacity: 0;
+    opacity: 0
   }
 
   #nav.hide li:nth-child(1) {
-    -webkit-transition-delay: 300ms, 300ms;
-    -o-transition-delay: 300ms, 300ms;
-    transition-delay: 300ms, 300ms;
+    -webkit-transition-delay: .3s, .3s;
+    -o-transition-delay: .3s, .3s;
+    transition-delay: .3s, .3s
   }
 
   #nav.hide li:nth-child(2) {
     -webkit-transition-delay: 250ms, 250ms;
     -o-transition-delay: 250ms, 250ms;
-    transition-delay: 250ms, 250ms;
+    transition-delay: 250ms, 250ms
   }
 
   #nav.hide li:nth-child(3) {
-    -webkit-transition-delay: 200ms, 200ms;
-    -o-transition-delay: 200ms, 200ms;
-    transition-delay: 200ms, 200ms;
+    -webkit-transition-delay: .2s, .2s;
+    -o-transition-delay: .2s, .2s;
+    transition-delay: .2s, .2s
   }
 
   #nav.hide li:nth-child(4) {
     -webkit-transition-delay: 150ms, 150ms;
     -o-transition-delay: 150ms, 150ms;
-    transition-delay: 150ms, 150ms;
+    transition-delay: 150ms, 150ms
   }
 
   #nav.hide li:nth-child(5) {
-    -webkit-transition-delay: 100ms, 100ms;
-    -o-transition-delay: 100ms, 100ms;
-    transition-delay: 100ms, 100ms;
+    -webkit-transition-delay: .1s, .1s;
+    -o-transition-delay: .1s, .1s;
+    transition-delay: .1s, .1s
   }
 
   #nav.hide li:nth-child(6) {
     -webkit-transition-delay: 50ms, 50ms;
     -o-transition-delay: 50ms, 50ms;
-    transition-delay: 50ms, 50ms;
+    transition-delay: 50ms, 50ms
   }
 
   #nav.hide li:nth-child(7) {
-    -webkit-transition-delay: 0ms, 0ms;
-    -o-transition-delay: 0ms, 0ms;
-    transition-delay: 0ms, 0ms;
+    -webkit-transition-delay: 0s, 0s;
+    -o-transition-delay: 0s, 0s;
+    transition-delay: 0s, 0s
   }
 
   #nav.show li {
-    opacity: 1;
+    opacity: 1
   }
 
   #nav.show li:nth-child(1) {
-    -webkit-transition-delay: 400ms, 400ms;
-    -o-transition-delay: 400ms, 400ms;
-    transition-delay: 400ms, 400ms;
+    -webkit-transition-delay: .4s, .4s;
+    -o-transition-delay: .4s, .4s;
+    transition-delay: .4s, .4s
   }
 
   #nav.show li:nth-child(2) {
     -webkit-transition-delay: 450ms, 450ms;
     -o-transition-delay: 450ms, 450ms;
-    transition-delay: 450ms, 450ms;
+    transition-delay: 450ms, 450ms
   }
 
   #nav.show li:nth-child(3) {
-    -webkit-transition-delay: 500ms, 500ms;
-    -o-transition-delay: 500ms, 500ms;
-    transition-delay: 500ms, 500ms;
+    -webkit-transition-delay: .5s, .5s;
+    -o-transition-delay: .5s, .5s;
+    transition-delay: .5s, .5s
   }
 
   #nav.show li:nth-child(4) {
     -webkit-transition-delay: 550ms, 550ms;
     -o-transition-delay: 550ms, 550ms;
-    transition-delay: 550ms, 550ms;
+    transition-delay: 550ms, 550ms
   }
 
   #nav.show li:nth-child(5) {
-    -webkit-transition-delay: 600ms, 600ms;
-    -o-transition-delay: 600ms, 600ms;
-    transition-delay: 600ms, 600ms;
+    -webkit-transition-delay: .6s, .6s;
+    -o-transition-delay: .6s, .6s;
+    transition-delay: .6s, .6s
   }
 
   #nav.show li:nth-child(6) {
     -webkit-transition-delay: 650ms, 650ms;
     -o-transition-delay: 650ms, 650ms;
-    transition-delay: 650ms, 650ms;
+    transition-delay: 650ms, 650ms
   }
 
   #nav.show li:nth-child(7) {
-    -webkit-transition-delay: 700ms, 700ms;
-    -o-transition-delay: 700ms, 700ms;
-    transition-delay: 700ms, 700ms;
+    -webkit-transition-delay: .7s, .7s;
+    -o-transition-delay: .7s, .7s;
+    transition-delay: .7s, .7s
   }
 
   .wrapper {
-    width: 96vw;
+    width: 96vw
   }
 
-  nav ul li a,
-  footer,
-  footer a {
-    font-size: 12px;
+  footer, footer a, nav ul li a {
+    font-size: 12px
   }
 
   amp-img {
-    margin: auto;
+    margin: auto
   }
 
-  #servicesItemSection h1,
-  #servicesItemSection h2 {
-    font-size: 50px;
-    margin-top: 60px;
+  #servicesItemSection h1, #servicesItemSection h2 {
+    font-size: 50px !important;
+    margin-top: 60px !important;
   }
 
   .service {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
+    flex-direction: column
   }
 
   .serviceDescribe {
-    max-width: 80vw;
+    max-width: 80vw
   }
 
-  footer,
-  footer a {
+  footer, footer a {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 16px
   }
 
   #honor a {
-    margin: auto 10px;
+    margin: auto 10px
   }
 
   .border {
-    padding: 10px 10px;
+    padding: 10px 10px
   }
 
   .footerSection p {
     text-align: center;
     font-size: 12px;
-    line-height: 29px;
+    line-height: 29px
   }
 
   #footerCopy {
-    margin-top: 7px;
+    margin-top: 7px
   }
 }
 
-@media (max-width: 739px) {
+@media (max-width:739px) {
   .service {
-    padding: 0;
+    padding: 0
   }
 
-  #servicesItemSection h1,
-  #servicesItemSection h2 {
-    font-size: 42px;
+  #servicesItemSection h1, #servicesItemSection h2 {
+    font-size: 42px !important;
   }
 
   footer .wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
+    flex-direction: column
   }
 
   #honor {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
-    margin-right: -58px;
+    margin-right: -58px
   }
 
   #connect div {
@@ -589,16 +586,16 @@ section {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: -20px;
+    margin-top: -20px
   }
 
   #connect amp-img {
     margin-top: 0;
-    margin-left: 20px;
+    margin-left: 20px
   }
 
   body {
-    overflow: auto;
+    overflow: auto
   }
 
   .no_overflow {
@@ -606,18 +603,31 @@ section {
     overflow: hidden;
     z-index: 0;
     -webkit-animation: delay-overflow 0 ease-in;
-    animation: delay-overflow 0 ease-in;
+    animation: delay-overflow 0 ease-in
   }
 
-@-webkit-keyframes delay-overflow {
+  @-webkit-keyframes delay-overflow {
     from {
-      overflow: auto;
+      overflow: auto
     }
+  }
+
+  @keyframes delay-overflow {
+    from {
+      overflow: auto
+    }
+  }
+}
+.service img {
+  display: block;
+  width: 42vw;
+  height: auto;
+  max-height: unset;
+  margin: 0 20px;
 }
 
-@keyframes delay-overflow {
-    from {
-      overflow: auto;
-    }
-}
+@media screen and (max-width: 768px) {
+  .service img {
+    width: 80vw;
+  }
 }

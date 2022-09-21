@@ -630,6 +630,7 @@ p a {
 }
 
 .gallery {
+  min-height: unset;
   background-color: #171717;
   padding: 80px 0 50px;
 }
@@ -685,6 +686,8 @@ p a {
 }
 
 .contact {
+  min-height: unset;
+  background-color: #fff;
   padding: 260px 0 280px;
 }
 
@@ -784,6 +787,9 @@ p a {
 
 .contact-form__input,
 .contact-form__textarea {
+  width: 100%;
+  max-width: 100%;
+  background-color: #fff;
   border: 2px solid #BFBFBF;
   border-radius: 10px;
   font-size: 18px;
@@ -859,6 +865,7 @@ p a {
 }
 
 .contacts {
+  min-height: unset;
   background-color: #D3F7FC;
   padding: 160px 0;
 }
