@@ -1,9 +1,7 @@
 @extends('skeleton')
 
 @section('critical_styles')
-
-	{{-- @inlineCss(css/industries.video-conferencing.css) --}}
-    @inlineCss(css/entertainment.min.css)
+    @inlineCss(css/entertainment.css)
 @endsection
 @section('content')
     <x-hero-section title="White-label video conferencing and webinar platform" :image="asset('img/hero/03.webp')"
@@ -214,4 +212,6 @@
         ],
     ]"></x-qna-section>
 	<x-lets-us-section></x-lets-us-section>
+    <script src="{{asset('js/slick.min.js')}}" defer></script>
+    <script src="{{asset('js/entertainment.js')}}" defer></script>
 @endsection
