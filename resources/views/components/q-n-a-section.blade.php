@@ -29,7 +29,7 @@
                     </div>
                     <div class="accordion__content">
                         <p>
-                            {{$item['answer']}}
+                            {!! $item['answer'] !!}
                         </p>
                     </div>
                 </div>

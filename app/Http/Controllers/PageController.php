@@ -16,6 +16,19 @@ class PageController
         }
         return view($view, compact('meta'));
     }
+    function htmlmap(){
+        $sitemap = [];
+        $directory = new \RecursiveDirectoryIterator(base_path('resources/views/pages'));
+        $iterator = new \RecursiveIteratorIterator($directory);
+        foreach ($iterator as $idx => $item){
+            if(in_array($item->getFilename(), ['.', '..'])){
+                continue;
+            }
+            $route_part = str_replace([base_path('resources/views/pages/'), '.blade.php'], '', $item->getPathName());
+            echo "<a href='/$route_part.html'>  $route_part </a><br>";
+
+        }
+    }
     function sitemap(){
         $sitemap = [];
         $directory = new \RecursiveDirectoryIterator(base_path('resources/views/pages'));
