@@ -97,7 +97,7 @@
                             <img alt="{{$item['picture']['alt']}}" src="{{$item['picture']['src']}}" ></source>
                         </picture>
                     </div>
-                    <h3 class="cases-slider__item-title">{{$title}}</h3>
+                    <h3 class="cases-slider__item-title">{{$item['title']}}</h3>
                 </a>
             </div>
 
