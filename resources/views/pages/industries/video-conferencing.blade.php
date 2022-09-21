@@ -16,7 +16,7 @@
         </x-slot>
     </x-hero-section>
     <x-industry-benefits-section
-        title="Advantages Of White-Label<br>Video Conferencing<br>Platform" 
+        title="Advantages Of White-Label<br>Video Conferencing<br>Platform"
         colsCount="3"
         :image="[
             'src' => asset('../img/benefits/desktops.png'),
@@ -175,11 +175,11 @@
                 'title' => 'Government Agencies',
                 'content' => 'Solutions that guarantee high-quality and, most importantly, secure communication will allow you to conduct online meetings and instantly share images from IP cameras.'
             ],
-        ]" 
+        ]"
     ></x-peculiarities>
     <x-technologies></x-technologies>
     <x-text-img
-        title="Why Our White Label Webinar Platform?" 
+        title="Why Our White Label Webinar Platform?"
         text="Our white label software for webinars fully complies with modern trends and latest technologies. By choosing our development, you receive the full ownership of a customizable, AI-based platform with the latest advanced features, high-quality media content delivery and stylish UI/UX design according to your wishes."
         :picture="[
             'src' => asset('../img/text-img/02.jpg'),
@@ -193,9 +193,8 @@
         ]"
     ></x-text-img>
     <x-cases-slider
-        text="Below you will find a summary of some of the projects we have completed. These case studies will help you understand how meticulously and passionately we approach our work and how attentive we are to the requirements of our clients." 
+        text="Below you will find a summary of some of the projects we have completed. These case studies will help you understand how meticulously and passionately we approach our work and how attentive we are to the requirements of our clients."
     ></x-cases-slider>
-	@include('sections.industries.video-conferencing.cases')
     <x-feedback></x-feedback>
     <x-qna-section :items="[
         [
