@@ -6,8 +6,7 @@
     'right' => [
         'top' => [
             'Trembit',
-            'Moskovs\'ka str. 23',
-            '4rd Floor',
+            'Nahirna str. 6',
             'Kyiv',
             'welcome@trembit.com'
         ],

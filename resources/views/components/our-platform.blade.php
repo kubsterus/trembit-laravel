@@ -64,7 +64,7 @@
                 'src' => asset('view/images/Stusanlogo.svg'),
                 'alt' => 'Stusan logo',
                 'srcset' => [
-                    
+
                 ],
             ],
             'title' => 'White Label WebRTC based video conferencing software',
@@ -93,36 +93,8 @@
                 </ul>
             ',
         ],
-        [
-            'picture' => [
-                'src' => asset('view/images/photo5373105573534479694.jpg'),
-                'alt' => 'Stream to',
-                'srcset' => [
-                    [
-                        'link' => asset('view/images/photo5373105573534479694.webp'),
-                        'type' => 'image/webp',
-                    ],
-                ],
-            ],
-            'pictureLogo' => [
-                'src' => asset('view/images/StreamLOGO.svg'),
-                'alt' => 'StreamLOGO',
-                'srcset' => [
-                    
-                ],
-            ],
-            'title' => '',
-            'link' => [
-                'href' => 'portfolio.html',
-                'label' => 'View platform details'
-            ],
-            'description' => '
-                <p><strong>Telemedicine</strong> is online doctor visits via secure video connection. </p>
-                            <p>TThe COVID-19 situation enforced numbers of private clinics to review their way of treating their patients. The telehealth platform we have created for them holds a wide range of features, which are specific for the Healthcare industry. The top priority in such a project is data security, such as HIPAA, GDPR, or KVB compliance, which we reach with the WebRTC technology and peer-to-peer connection. Features such as E-prescriptions, y in such a project is data security, such as HIPAA, GDPR, or KVB compliance, which we reach with the WebRTC technology and peer-to-peer connection. Features such as E-prescriptions, meeting calendar, and whiteboards are the ones which differentiate telemedicine from the regular videoconferencing solutions. Doctors can manage patients, meeting hours, along with the files, prescriptions, and notes, attached to the specific patient and &ldquo;doctor visit meeting&rdquo;.</p>
-                            <p>WebRTC, Angular, NodeJS, Postgres</p>
-            ',
-        ],
-        
+
+
     ],
 ])
 <section id="our-platform" style="position: relative;background-color: rgb(28 30 46);padding-top: 0px;padding-bottom: 0px;min-height: auto;">
@@ -131,7 +103,7 @@
             <div class="bl-7w mob" style="position: relative;">
                 <h3 class="title-case-2">{{$title}}</h3>
                 @foreach ($items as $key => $item)
-                    
+
                 <div class="block-in2-s  block-in2-{{$key}} {{!$key ? 'active' : ''}}" style="display: flex;">
                     <picture>
                         @foreach ($item['pictureLogo']['srcset'] as $set)
@@ -151,7 +123,7 @@
             <div class="case-bl case-bl-1 show">
                 <h3 class="title-case-2">{{$title}}</h3>
                 @foreach ($items as $key => $item)
-                    
+
                 <div class="flex block-in2-s block-in2-{{$key}} {{!$key ? 'active' : ''}}">
                     <picture>
                         @foreach ($item['pictureLogo']['srcset'] as $set)
@@ -172,7 +144,7 @@
         </div>
         <div class="bl-7w desctop" style="position: relative;">
             @foreach ($items as $key => $item)
-                
+
             <div class="desktop block-in2-s  block-in2-{{$key}} {{!$key ? 'active' : ''}}" style="display: flex;">
                 <picture>
                     @foreach ($item['picture']['srcset'] as $set)
@@ -186,7 +158,7 @@
             @endforeach
             <div class="flex">
                 @foreach ($items as $key => $item)
-                    
+
                 <div class="block-2c block-in2 block-n2-{{$key}} {{!$key ? 'active' : ''}}">
                     <div class="bag-cs"></div>
                     <picture>

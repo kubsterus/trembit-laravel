@@ -39,24 +39,6 @@
     </x-portfolio-item>
     <x-portfolio-item index="3">
         <x-slot name="content">
-            <h2 style="color:#FFFFFF;">Healthy diet app</h2>
-            <p style="width: 53%;"><strong>
-                    Dine Nation - is an app for modern users who wish to stay healthy in this overwhelmed society. It adjusts the daily menu according to the client’s personal preferences, such as age, weight, gender, lifestyle and so on. Creates a unique menu that aligns with customers’ needs - whether the weight loss or mass gain, The Dine Nation app automatically calculates the necessary protein carbs- fats ratio specifically for each person. It is also possible to manually select the different types of food in each part of your daily eating session. The delivery and food plans are also included.
-                </strong>
-            </p>
-            <p><strong>Industry:</strong> Healthy food</p>
-            <p><strong>Technology used:</strong></p>
-            <ul>
-                <li>NodeJS, Firebase, Postgresql, React+React native </li>
-                <li>Firebase</li>
-                <li>Postgresql</li>
-                <li>React+React native </li>
-                <li>IOS/Android (swift/kotlin).</li>
-            </ul>
-        </x-slot>
-    </x-portfolio-item>
-    <x-portfolio-item index="4">
-        <x-slot name="content">
             <h2 style="color:#18A7F8;">Video post-editing<br />	solution</h2>
             <p><strong>
                     VTT editor - is a comprehensive tool to work with subtitles.<br />
@@ -73,7 +55,7 @@
             </ul>
         </x-slot>
     </x-portfolio-item>
-    <x-portfolio-item index="5">
+    <x-portfolio-item index="4">
         <x-slot name="content">
             <h2 style="color:#FAF627;">Online dating app</h2>
             <p><strong>
@@ -98,7 +80,7 @@
             </ul>
         </x-slot>
     </x-portfolio-item>
-    <x-portfolio-item index="6">
+    <x-portfolio-item index="5">
         <x-slot name="content">
             <h2 style="color:#213045;">Trading streaming platform</h2>
             <p><strong>Bullpit is a trading streaming twitch-like platform, focused on the strong investor community, combined with the Wallstreetbets and other public sources. In order to share users’ experience and ideas regarding the investments, it allows streaming the real-time stock market activity.</strong></p>
@@ -112,7 +94,7 @@
             </ul>
         </x-slot>
     </x-portfolio-item>
-    <x-portfolio-item index="7">
+    <x-portfolio-item index="6">
         <x-slot name="content">
             <h2 style="color:#006AE1;">Video conferencing platform</h2>
             <p style="width: 63%;"><strong>
@@ -135,7 +117,7 @@
             </ul>
         </x-slot>
     </x-portfolio-item>
-    <x-portfolio-item index="8">
+    <x-portfolio-item index="7">
         <x-slot name="content">
             <h2 style="color: #B12FC5;">Virtual conferencing solution for event agency</h2>
             <p><strong>
@@ -149,7 +131,7 @@
             </ul>
         </x-slot>
     </x-portfolio-item>
-    <x-portfolio-item index="9">
+    <x-portfolio-item index="8">
         <x-slot name="content">
             <h2 style="color:#FFFFFF;">Webinar platform	</h2>
             <p><strong>The solution was created from scratch for online education. It works like a webinar platform with a list of specific features like subtitles creation, screen sharing, speech-to-text conversion, and many more.</strong></p>
@@ -164,7 +146,7 @@
             </ul>
         </x-slot>
     </x-portfolio-item>
-    <x-portfolio-item index="10">
+    <x-portfolio-item index="9">
         <x-slot name="content">
             <h2 style="color: #13c4cd;">Online event platform</h2>
             <p><strong>
@@ -182,7 +164,7 @@
             </ul>
         </x-slot>
     </x-portfolio-item>
-    <x-portfolio-item index="11">
+    <x-portfolio-item index="10">
         <x-slot name="content">
             <h2 style="color: #213045;">Online platform for musicians</h2>
             <p><strong>Sirius is a unique cutting edge technology tool, combining opportunities for long-distance music teaching and studying music enthusiastic users all over the world. The product is GDPR compliant and is now successfully used by over 8k teachers.</strong></p>
@@ -199,7 +181,7 @@
             </ul>
         </x-slot>
     </x-portfolio-item>
-    <x-portfolio-item index="12">
+    <x-portfolio-item index="11">
         <x-slot name="content">
             <h2 style="color:#ffffff;">P2P platform for psychotherapy online</h2>
             <p><strong>«WebPRAX Face2Face» is the first online therapy platform specially designed for the psychotherapists, that was certified by KVB for video conferencing</strong></p>
@@ -214,7 +196,7 @@
             </ul>
         </x-slot>
     </x-portfolio-item>
-    <x-portfolio-item index="13">
+    <x-portfolio-item index="12">
         <x-slot name="content">
             <h2 style="color: #7252a5;">Stusan</h2>
             <p><strong>

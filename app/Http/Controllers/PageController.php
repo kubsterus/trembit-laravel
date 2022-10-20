@@ -46,7 +46,7 @@ class PageController
                 $sitemap_item['loc'] = route('page', ['page' => $route_part]);
                 $sitemap_item['priority'] = '0.8';
             }
-            $sitemap_item['lastmod'] = date('Y-m-dTH:i:s+00:00', strtotime('last Monday'));
+            $sitemap_item['lastmod'] = date('Y-m-d\TH:i:s+00:00', strtotime('last Monday'));
             $sitemap[] = $sitemap_item;
         }
         $xml = new \DOMDocument();

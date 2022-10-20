@@ -48,6 +48,19 @@
             ],
             'link' => 'https://www.eyeson.com/',
         ],
+        [
+            'picture' => [
+                'src' => asset('view/images/vonage.webp'),
+                'alt' => 'Vonage',
+                'srcset' => [
+                    [
+                    'link' => asset('view/images/vonage.webp'),
+                    'type' => 'image/webp',
+                    ],
+                ],
+            ],
+            'link' => 'https://www.vonage.com/',
+        ],
     ],
 ])
 <section class="partners">

@@ -97,6 +97,8 @@
                         <li><a href="/industries/fitness-app-development.html"><img alt="fitness app development" src="{{asset('view/images/setting.svg')}}" height="16" style="padding-right:15px;">Fitness App Development</a></li>
                         <li><a href="/industries/dating-app-development.html"><img alt="dating app development" src="{{asset('view/images/art-and-design.svg')}}" height="16" style="padding-right:15px;">Dating App Development</a></li>
                         <li><a href="/industries/video-chat-app-development.html"><img alt="video chat app" src="{{asset('view/images/virus-warning(1).svg')}}" height="16" style="padding-right:15px;">Video Chat App Development</a></li>
+                        <li><a href="/industries/entertainment.html"><img alt="entertainment" src="{{asset('view/images/virus-warning(1).svg')}}" height="16" style="padding-right:15px;">Entertainment</a></li>
+                        <li><a href="/industries/video-conferencing.html"><img alt="video conferencing" src="{{asset('view/images/virus-warning(1).svg')}}" height="16" style="padding-right:15px;">Video Conferencing</a></li>
                     </ul>
                     <div class="drop-it">
                         <div class="wrapper headerWrapper">
@@ -109,7 +111,7 @@
                                     </li>
                                     <li>
                                         <a href="/industries/telemedicine-app-development.html">
-                                            <img alt="telemedicine app" src="{{asset('view/images/telemedicine-app.svg')}}" height="16" style="padding-right:21px;">Telemedicine App Development
+                                            <img alt="telemedicine app" src="{{asset('view/images/telemedicine-app.svg')}}" height="16" style="padding-right:15px;">Telemedicine App Development
                                         </a>
                                     </li>
                                     <li>
@@ -127,6 +129,16 @@
                                     <li>
                                         <a href="/industries/video-chat-app-development.html">
                                             <img alt="video chat" src="{{asset('view/images/video-chat.svg')}}" height="16" style="padding-right:15px;">Video Chat App Development
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/industries/entertainment.html">
+                                            <img alt="entertainment" src="{{asset('view/images/virus-warning(1).svg')}}" height="16" style="padding-right:15px;">Entertainment
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/industries/video-conferencing.html">
+                                            <img alt="video conferencing" src="{{asset('view/images/virus-warning(1).svg')}}" height="16" style="padding-right:15px;">Video Conferencing
                                         </a>
                                     </li>
                                 </ul>
